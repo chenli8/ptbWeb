@@ -1,0 +1,291 @@
+.sort {
+    width: 1200px;
+    height: 50px;
+    background: #FFFFFF;
+    border-bottom: solid 1px #E8E8E8;
+    line-height: 50px;
+    padding-left: 24px;
+    position: relative;
+}
+
+.sort .sortUpDown {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 4px;
+}
+
+.sort .sortUpDown .ico-arrow-up {
+    margin-top: 1px;
+}
+
+.sort .sortUpDown .ico-arrow-down {
+    margin-top: 5px;
+}
+
+.sort a {
+    margin-right: 54px;
+    font-size: 16px;
+    color: #979797;
+}
+
+.sort a.on {
+    color: #252525;
+}
+
+.sort a .ico {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.sort .tip {
+    width: 1px;
+    height: 22px;
+    background: #E8E8E8;
+    margin: 0px 40px 0 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sort a:nth-of-type(5) {
+    margin-left: 0;
+}
+
+/*所在地*/
+.sort .region {
+    position: absolute;
+    height: 49px;
+    width: 100px;
+    right: 0;
+    top: 0;
+}
+
+.sort .region > .default {
+    height: 100%;
+    line-height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    background: #FFFFFF;
+    border-left: 1px solid transparent;
+}
+
+.sort .region > .default.on {
+    border-left: 1px solid #DADADA;
+    height: 50px;
+    z-index: 2;
+    position: absolute;
+}
+
+.sort .region > .default .text {
+    display: inline-block;
+    width: auto;
+    padding-right: 5px;
+    padding-left: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.sort .region > .default > .ico-arrow-down {
+    margin: 22px 0 0 0;
+}
+.sort .region .pull_Mask{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 49px;
+    left: -300px;
+}
+.sort .region .pull_Mask > .pull {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 400px;
+    height: auto;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-right: none;
+    box-shadow: 0 18px 34px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 6px 0 6px 6px;
+    padding: 0 15px 15px 15px;
+}
+
+.sort .region .pull_Mask > .pull > .default {
+    height: auto;
+    width: 100%;
+
+}
+
+.sort .region .pull_Mask .pull > .default li {
+    float: left;
+    font-size: 18px;
+    padding: 0 8px;
+    margin-top: 22px;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.sort .region .pull_Mask > .pull .select {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 1px solid #DADADA;;
+}
+
+.sort .region .pull_Mask > .pull .select .option {
+    width: 91px;
+    height: 34px;
+    line-height: 32px;
+    font-size: 18px;
+    border: 1px solid #E8E8E8;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.sort .region .pull_Mask > .pull .select .option .text {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    height: 34px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.sort .region .pull_Mask > .pull .select .option .default > .ico-arrow-down {
+    margin-top: 14px;
+}
+
+.sort .region .pull_Mask > .pull .select .option > .pull {
+    width: 91px;
+    position: absolute;
+    top: 32px;
+    background: #FFFFFF;
+    box-shadow: 0 18px 34px 0 rgba(0, 0, 0, 0.14);
+    height: 200px;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.sort .region .pull_Mask > .pull .select .option > .pull li {
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.sort .region .pull_Mask > .pull .select .option > .pull li:hover {
+    background: #FFC72F;
+}
+
+/*价格*/
+.sort .price {
+    position: absolute;
+    height: 49px;
+    min-width: 100px;
+    width: auto;
+    right: 110px;
+    top: 0;
+}
+
+.sort .price > .default {
+    height: 100%;
+    line-height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.sort .price > .default.on {
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    height: 50px;
+    z-index: 2;
+    position: relative;
+    width: auto;
+    min-width: 100px;
+    right: 0;
+    top:0;
+    padding-right: 10px;
+}
+
+.sort .price > .default .text {
+    display: inline-block;
+    width: auto;
+    padding-right: 5px;
+    padding-left: 20px;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.sort .price > .default > .ico-arrow-down {
+    margin: 22px 0 0 0;
+}
+
+.sort .price > .pull {
+    position: absolute;
+    top: 49px;
+    right: 0;
+    z-index: 1;
+    width: 400px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-shadow: 0 18px 34px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 6px 0 6px 6px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.sort .price > .pull > .top {
+    height: auto;
+    width: 100%;
+}
+
+.sort .price .pull > .top li {
+    float: left;
+    font-size: 18px;
+    padding: 0 8px;
+    margin-top: 22px;
+    cursor: pointer;
+    line-height: normal;
+}
+
+.sort .price .pull > .bottom {
+    width: 100%;
+    border-top: 1px solid #DADADA;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.sort .price .pull > .bottom input {
+    width: 100px;
+    height: 34px;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sort .price .pull > .bottom a {
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    color: #252525;
+    border-radius: 6px;
+    margin: 0 0 0 10px;
+}
+
+
+
+
+

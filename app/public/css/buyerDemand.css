@@ -1,0 +1,302 @@
+@charset "UTF-8";
+hide{
+    display: none;
+}
+
+
+.demandList {
+    width: 900px;
+    height: auto;
+    min-height: 776px;
+    margin: auto;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+}
+.demandList .top {
+    height: 85px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.demandList .top .search {
+    height: 38px;
+    margin-top: 25px;
+}
+.demandList .top .searchType {
+    font-size: 16px;
+    color: #252525;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 6px 0 0 6px;
+    background-color: #F7F8FA;
+    padding-left: 22px;
+    border:solid 1px #DADADA;
+    border-right:0;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.demandList .top .searchType .pull{
+    position: absolute;
+    background-color: #F7F8FA;
+    width: 118px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.06);
+    top:37px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    line-height: 34px;
+}
+.demandList .top .searchType .pull li{
+    height:34px;
+    cursor: pointer;
+}
+.demandList .top .searchType .pull li:hover{
+    background-color:#FFC72F ;
+}
+.demandList .top .searchType i {
+    float: right;
+    margin: 16px 14px 0 0px;
+}
+.demandList .top .searchInput {
+    font-size: 16px;
+    height: 38px;
+    padding-left: 10px;
+    border:solid 1px #DADADA;
+    border-left:0;
+    border-radius: 0px 6px 6px 0px;
+}
+.demandList .top a {
+    font-size: 16px;
+    height: 38px;
+    width: 90px;
+    line-height: 38px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+.demandList .demandTab {
+    height: 60px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.demandList .demandTab li {
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+.demandList .demandTab .current {
+    color: #252525;
+    border-bottom: 4px solid #FFC72F;
+}
+.demandList .demandTab li a {
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #979797;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.demandList .demandInfoList {
+    height: auto;
+    padding-bottom: 25px;
+}
+.demandList .demandInfoList li {
+    padding: 25px 25px 0 25px;
+}
+.demandList .demandInfoList li .demandInfo {
+    height: 200px;
+    border: 1px solid #E8E8E8;
+}
+.demandList .demandInfoList li .demandInfo .top {
+    height: 36px;
+    background-color: #FAFAFA;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.demandList .demandInfoList li .demandInfo .top .orderNum {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #979797;
+}
+.demandList .demandInfoList li .demandInfo .top .orderNum span {
+    color: #252525;
+}
+.demandList .demandInfoList li .demandInfo .top .time {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.demandList .demandInfoList li .demandInfo .middle {
+    height: 118px;
+}
+.demandList .demandInfoList li .demandInfo .middle .descCon {
+    width: 445px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #E8E8E8;
+}
+.demandList .demandInfoList li .demandInfo .middle .descCon .title {
+    font-size: 16px;
+    color: #252525;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.demandList .demandInfoList li .demandInfo .middle .descCon .desc {
+    font-size: 14px;
+    line-height: 20px;
+    color: #979797;
+    margin-top: 15px;
+    word-wrap:break-word;
+    width:400px;
+    background: #FFFFFF;
+    position: absolute;
+}
+.demandList .demandInfoList li .demandInfo .middle .descCon .desc a{
+    margin-left: 10px;
+}
+.demandList .demandInfoList li .demandInfo .middle .descCon .desc.on{
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.06);
+}
+.demandList .demandInfoList li .demandInfo .middle .priceCon {
+    width: 190px;
+    height: 118px;
+    line-height: 118px;
+    text-align: center;
+    border-right: 1px solid #E8E8E8;
+}
+.demandList .demandInfoList li .demandInfo .middle .priceCon .title{
+    height: 20px;
+    font-size: 14px;
+    color: #252525;
+    margin-top: -10px;
+}
+.demandList .demandInfoList li .demandInfo .middle .priceCon .price{
+    height: 20px;
+    font-size: 16px;
+    color: #FF4500;
+    margin-top: 5px;
+}
+.demandList .demandInfoList li .demandInfo .middle .priceCon .price>b{
+    font-size: 16px;
+}
+.demandList .demandInfoList li .demandInfo .middle .priceCon .price>b>i{
+    display:inline-block!important;
+    font-size: 16px;
+    color: #FF4500;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon {
+    width: 204px;
+    height: 118px;
+    padding-right: 15px;
+    text-align: right;
+    position: relative;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status {
+    width: 86px;
+    margin-left: 103px;
+    margin-top: 15px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status .answer{
+    width: 86px;
+    height: 30px;
+    background: url("../../public/img/ico-demand-answer.png") no-repeat right;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status i{
+    width: 86px;
+    height: 30px;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status .wait{
+    background: url("../../public/img/ico-demand-wait-audit.png") no-repeat right;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status .answer{
+    background: url("../../public/img/ico-demand-answer.png") no-repeat right;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .status .close{
+    background: url("../../public/img/ico-demand-close.png") no-repeat right;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .complete {
+    background: url("../../public/img/ico-demand-over.png") no-repeat right;
+    background-size: 86px 30px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .statusDesc{
+    font-size: 12px;
+    color: #252525;
+    margin-top: 12px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .statusDesc span {
+    color: #FF4500;
+    margin-left: 5px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .demandDetailBtn{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.demandList .demandInfoList li .demandInfo .middle .statusCon .demandDetailBtn a {
+    font-size: 12px;
+    color: #979797;
+}
+.demandList .demandInfoList li .demandInfo .bottom {
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #E8E8E8;
+}
+.demandList .demandInfoList li .demandInfo .bottom .answerCountCon {
+    width: 180px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 12px;
+    color: #979797;
+    overflow: hidden;
+}
+.demandList .demandInfoList li .demandInfo .bottom .answerCountCon .answerCount span{
+    color: #252525;
+    margin-right: 10px;
+}
+.demandList .demandInfoList li .demandInfo .bottom .answerCountCon .signCount span{
+    color: #252525;
+}
+.demandList .demandInfoList li .demandInfo .bottom .buttons{
+    height: 43px;
+    line-height: 43px;
+}
+.demandButtons{
+    height: 28px;
+}
+.demandButtons a{
+    width: 114px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #252525;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 10px;
+
+}
+.demandButtons .advanceComplete{
+    border: 1px solid #E8E8E8;
+}
+.demandButtons .deleteDemand{
+    border: 1px solid #E8E8E8;
+}
+.demandInfoList .noListTap{
+    font-size:16px;
+    text-align: center;
+    margin-top:173px;
+}

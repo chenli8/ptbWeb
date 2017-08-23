@@ -1,0 +1,116 @@
+.container {
+    padding-bottom: 100px
+}
+
+.container .buyerCenterCon {
+    width: 100%;
+    height: auto;
+    padding: 0 70px 0px 30px;
+}
+
+.container .buyerCenterCon .buyerCon {
+    /*width:100%;*/
+    /*height:auto;*/
+}
+
+/*买家中心顶部搜索框样式*/
+.container .buyerCenterCon .buyerCon .main {
+    float: left;
+}
+
+.container .buyerCenterCon .buyerCon .top {
+
+}
+
+.container .buyerCenterCon .buyerCon .top .title {
+    width: 291px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.container .buyerCenterCon .buyerCon .top .title .ico-home {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.container .buyerCenterCon .buyerCon .top .subNav {
+    width: 897px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.container .buyerCenterCon .buyerCon .top .subNav ul li {
+    float: left;
+    margin-right: 17px;
+    font-size: 16px;
+}
+
+.container .buyerCenterCon .buyerCon .top .subNav ul li .ico-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+/*左边导航相关样式*/
+.container .buyerCenterCon .buyerCon .main .leftNav {
+    width: 291px;
+    height: 776px;
+    background-color: white;
+    margin-top: 15px;
+    border: 1px solid #E8E8E8;
+    border-right: 4px solid #FFC72F;
+}
+
+.CommonNavItem {
+    width: 100%;
+    overflow: hidden;
+}
+
+.CommonNavItem .title {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0 6px 21px;
+}
+
+.CommonNavItem .title i {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    margin-right: 14px;
+}
+
+.CommonNavItem a {
+    display: inline-block;
+    height: 45px;
+    width: 237px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #979797;
+    margin-left: 58px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.CommonNavItem a.on {
+    width: 100% !important;
+    margin-left: 0;
+    padding-left: 58px;
+    color: #252525;
+    background: #FFC72F;
+}
+
+/*右边内容部分样式*/
+.buyerCenterCon .buyerCon .main .rightContent {
+    width: 897px;
+    height: auto;
+    min-height: 776px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+

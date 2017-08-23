@@ -1,0 +1,1205 @@
+.demandDetail {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.demandDetail .demandNav {
+    width: 1200px;
+    height: 20px;
+    margin-bottom: 18px;
+}
+
+.demandDetail .demandNav ul li {
+    float: left;
+    margin-right: 17px;
+}
+
+.demandDetail .demandNav ul li .ico-right {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-left: 18px;
+}
+
+.demandDetail .BuyerStep {
+    width: 1200px;
+    height: 151px;
+    background: #fff;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #E8E8E8;
+}
+
+.demandDetail .BuyerStep .icoStep {
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.demandDetail .BuyerStep .lastStep {
+    margin-right: 0;
+}
+
+.demandDetail .BuyerStep .icoStep i {
+    width: 50px;
+    height: 52px;
+    background: url(../img/ico-unStep.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+
+.demandDetail .BuyerStep .solid {
+    width: 210px;
+    height: 2px;
+    background: #45CA9F;
+    position: absolute;
+}
+
+.demandDetail .BuyerStep .firstSolid {
+    left: 235px;
+    top: 50px;
+}
+
+.demandDetail .BuyerStep .secondSolid {
+    left: 484px;
+    top: 50px;
+}
+
+.demandDetail .BuyerStep .thirdSolid {
+    left: 735px;
+    top: 50px;
+}
+
+/*创建需求*/
+.demandDetail .CreateDemand {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    background: #fff;
+    margin-bottom: 68px;
+    padding: 40px 26px;
+    box-sizing: border-box;
+    float: left;
+}
+.demandDetail .CreateDemand .textarea{
+    width: 100%;
+}
+.demandDetail .CreateDemand .WriteDemand {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 36px;
+    overflow: hidden;
+    float: left;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv {
+    width: 100%;
+    height: auto;
+    overflow: initial;
+    position: relative;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv .title {
+    width: 100%;
+}
+
+.demandDetail .CreateDemand .WriteDemand b {
+    color: red;
+    font-size: 16px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .DemandType {
+    width: 406px;
+    height: 48px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #E8E8E8;
+    display: block;
+    margin-top: 14px;
+    line-height: 48px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .DemandType .ico-arrow-down {
+    margin-top: 20px;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv .list {
+    width: auto;
+    height: auto;
+    max-width: 586px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.08);
+    padding: 36px 0 20px 45px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+}
+
+.demandDetail .CreateDemand .WriteDemand.address {
+    overflow: initial;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv .list li {
+    float: left;
+    margin-right: 40px;
+    width: auto;
+    padding: 7px 9px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv .list li:hover {
+    background: #FFC72F;
+}
+
+.demandDetail .CreateDemand .WriteDemand.DemandTypeDiv .list li.on {
+    background: #FFC72F;
+}
+
+.demandDetail .CreateDemand .WriteDemand .DemandName {
+    width: 646px;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #E8E8E8;
+    display: block;
+    margin-top: 14px;
+}
+
+.demandBudget {
+    margin-top: 23px;
+}
+
+.demandBudget .section {
+    color: #D8D8D8;
+    position: relative;
+    margin-left: 158px;
+    margin-top: 20px;
+}
+
+.demandBudget .section sub {
+    color: #252525;
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+}
+
+.demandBudget .section input {
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 18px;
+    border: 1px solid #E8E8E8;
+    padding-left: 18px;
+
+}
+
+.demandBudget .section.single input {
+    width: 170px;
+    margin-left: 130px;
+}
+
+.demandBudget .section.single span:first-child sub {
+    left: 136px;
+}
+
+.demandBudget .section span:first-child sub {
+    left: 8px;
+}
+
+.demandBudget .section span:nth-child(2) sub {
+    left: 180px;
+}
+
+.demandBudget .price {
+    width: 100%;
+}
+
+.demandBudget .price i {
+    margin-right: 10px;
+    margin-left: 15px;
+    float: left;
+}
+
+.demandBudget .price span {
+    float: left;
+    margin-right: 20px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .address {
+    margin-top: 18px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .DemandLocal {
+    margin-top: 26px;
+    width: 70px;
+    height: 24px;
+    margin-right: 50px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .Demanddesc {
+    width: 646px;
+    height: 218px;
+    border: 1px solid #E8E8E8;
+    padding: 15px;
+    display: block;
+    margin-top: 14px;
+    font-size: 16px;
+}
+.demandDetail .CreateDemand .WriteDemand .numTotal{
+    width:80px;
+    float: left;
+    margin:-30px 0 0 560px;
+}
+.addFile .addAttach {
+    width: 88px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    background: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    margin-right: 24px;
+    margin-top: 14px;;
+}
+
+.addFile .Attachtip {
+    margin-top: 22px;
+    font-size: 13px;
+    color: #979797;
+}
+
+.addFile .Attachtip a {
+    color: #4895FF !important;
+}
+
+.addFile {
+    width: 100%;
+    position: relative;
+}
+
+.addFile .file {
+    width: 90px;
+    height: 34px;
+    background-color: #252525;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    opacity: 0;
+}
+
+.demandDetail .CreateDemand .WriteDemand .writeInput {
+    margin-top: 14px;
+    width: 276px;
+    height: 48px;
+    border: 1px solid #E8E8E8;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.demandDetail .CreateDemand .WriteDemand .wirteTest {
+    margin-left: 14px;
+}
+
+.demandDetail .CreateDemand .WriteDemand .getTest {
+    width: 136px;
+    height: 48px;
+    background: #4895FF;
+    border-radius: 0 6px 6px 0;
+    line-height: 48px;
+    text-align: center;
+    margin-right: 446px;
+    margin-top: 14px;
+    color: #FFFFFF;
+}
+
+.demandDetail .CreateDemand .WriteDemand .PublishBtn {
+    width: 646px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 69px;
+    border-radius: 6px;
+}
+
+.Review {
+    width: 1200px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #E8E8E8;
+}
+
+.Review .head {
+    width: 1198px;
+    height: 96px;
+    background: #FAFBFC;
+    padding-left: 23.5px;
+    box-sizing: border-box;
+    line-height: 96px;
+    font-size: 20px;
+}
+
+.Review .head a {
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 27px;
+    border-radius: 6px;
+    margin-right: 23px;
+    font-size: 16px;
+}
+
+.Review .head .ico-demand-wait-audit, .Review .head .ico-demand-close, .Review .head .ico-demand-answer,.Review .head .ico-demand-over {
+    margin: 32px 24px 0 0;
+}
+
+.Review .head .changeBtn {
+    border: 1px solid #E8E8E8;
+    margin-right: 12px;
+
+}
+
+.Review .main {
+    width: 1160px;
+    height: auto;
+    margin: 24px 20px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.Review .main .top {
+    width: 100%;
+    height: 142px;
+    border-bottom: solid 1px #E8E8E8
+}
+
+.Review .main .top .title {
+    font-size: 24px;
+}
+
+.Review .main .top .title b {
+    color: #FF4500;
+    display: block;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.Review .main .top .num {
+    margin-top: 21px;
+}
+
+.Review .main .top .num ul li {
+    float: left;
+    font-size: 16px;
+    color: #979797;
+}
+
+.Review .main .top .num ul li:nth-child(2) {
+    width: 2px;
+    height: 18px;
+    background: #E8E8E8;
+    margin: 0 36px;
+}
+
+.Review .main .top .num ul li b {
+    color: #FF4500;
+    font-size: 16px;
+}
+
+.Review .main .top .requireCollect {
+    width: 200px;
+    height: 32px;
+    margin-top: -20px;
+    margin-right: -80px;
+    font-size: 16px;
+}
+.Review .main .top .requireCollect i{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    float: left;
+    margin: -6px 16px 0 0;
+}
+
+.Review .main .btm .btmNum {
+    margin-top: 26px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Review .main .btm .btmNum b {
+    font-size: 16px;
+    color: #666666;
+}
+
+.Review .main .btm .btmdesc {
+    margin-top: 16px;
+}
+
+.Review .main .btm .desc {
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.Review .main .btm .desc .descSub{
+    height: 50px;
+    font-size: 14px;
+    color: #CCCCCC;
+    line-height: 50px;
+}
+.Review .main .btm .desc .descSub span{
+    margin-right: 30px;
+}
+.Review .main .btm .desc .update {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #E8E8E8;
+}
+.Review .main .btm .desc .update li{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    float: left;
+}
+.Review .main .btm .desc .update .text{
+    width: 100%;
+    font-size: 14px;
+    color: #979797;
+}
+.Review .main .btm .desc .update .updateDesc{
+    width: 100%;
+}
+.Review .main .btm .desc .update .updateFile{
+    width: auto;
+    height: auto;
+    background: #f7f8fa;
+    border: 1px dashed #979797;
+    margin-top: 26px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 24px;
+}
+.Review .main .btm .desc .update .updateFile p{
+    color: #979797;
+}
+.Review .main .btm .desc .update .updateFile li{
+    margin-top: 0;
+}
+.Review .main .btm .attach, .attach {
+    width:auto;
+    height: auto;
+    background: #F7F8FA;
+    border: 1px dashed #979797;
+    margin-top: 26px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 24px;
+}
+.Review .main .btm .attach, .attach>ul>li>a{
+    float: right;
+}
+.Review .main .btm .attach ul li a, .attach ul li a ,.Review .main .btm .desc .update .updateFile li a{
+    color: #3069E6;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+
+.Review .main .btm .attach p, .demandDetail .CreateDemand .attach p {
+    color: #979797;
+}
+
+.supplier {
+    width: 1200px;
+    height: auto;
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #E8E8E8;
+}
+
+.supplier > .title {
+    width: 1200px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 24.5px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 18px;
+    border-bottom: solid 1px #E8E8E8;
+    position: relative;
+}
+.supplier .nav{
+    width: 328px;
+    height:48px;
+    border:1px solid #E8E8E8;
+    border-bottom: 0;
+}
+.supplier .nav span{
+    float: left;
+    width: 162px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    color: #979797;
+    font-weight: normal;
+    text-align: center;
+    background: #FFFFFF;
+    margin-top:0px;
+}
+.supplier .nav span.on{
+    background: #FFC72F;
+    font-weight: bold;
+    color: #252525;
+}
+.supplier > .title.other{
+    padding-left: 0;
+    height:50px;
+    line-height: 50px;
+    background: #F7F8FA;
+    position: relative;
+    top:-1px;
+    border-bottom:solid 2px #FFC72F;
+}
+.supplier > .title .answerBtn {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 24px;
+    margin-top: 16px;
+}
+.supplier > .title .answerType1{
+    color: #DADADA;
+    font-weight: normal;
+    padding-right: 20px;
+}
+.supplier .content {
+    width: 1200px;
+    min-height: 309px;
+}
+.supplier > .title .file{
+    background-color: #000000;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    opacity: 0;
+}
+.supplier .content p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 309px;
+}
+
+.supplier .item {
+    width: 100%;
+    /*min-height: 258px;*/
+    min-height: 142px;
+    height: auto;
+    border-bottom: solid 1px #E8E8E8;
+    padding: 26px 24px;
+    box-sizing: border-box;
+}
+
+.supplier .item .top {
+    overflow: hidden;
+}
+
+.supplier .item .top .left .img {
+    width: 89px;
+    height: 89px;
+    margin-right: 12px;
+}
+.supplier .item .top .left .img .pic i{
+    width: 89px;
+    height: 89px;
+    border-radius: 6px;
+    background-size: 89px 89px;
+}
+.supplier .item .top .left .info {
+    width: 300px;
+}
+
+.supplier .item .top .left .info .name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.supplier .item .top .left .info .server {
+    font-size: 14px;
+    color: #979797;
+    margin-top: 8px;
+}
+
+.supplier .item .top .left .info .address {
+    color: #979797;
+    margin-top: 17px;
+}
+
+.supplier .item .top .right {
+    margin-left: 211px;
+    width: 540px;
+}
+
+.supplier .item .top .right .payData {
+    margin-top: 25px;
+}
+
+.supplier .item .top .right .payData ul li {
+    float: left;
+    margin-right: 100px;
+}
+
+.supplier .item .top .right .payData ul li:last-child {
+    margin-right: 45px;
+}
+
+.supplier .item .top .right .payData ul li .nums {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.supplier .item .top .right .payData ul li .desc {
+    font-size: 14px;
+    color: #979797;
+    margin-top: 8px;
+    display: block;
+    text-align: right;
+}
+
+.supplier .item .top .right > a,.supplier .item .top .right > span {
+    float: right;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    border: solid 1px #ccc;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+.supplier .item .top .right > a.on{
+    border: 1px solid transparent;
+}
+.supplier .item .btm {
+    margin: 25px 0 0 100px;
+    width: 1050px;
+    height: auto;
+}
+.supplier .item .btm .sellerReply{
+    width: 1050px;
+    height: auto;
+    background: #F7F8FA;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 12px;
+    box-sizing: border-box;
+}
+.supplier .item .btm .price {
+    font-size: 18px;
+}
+
+.supplier .item .btm .price b {
+    color: #FF4500;
+    font-size: 18px;
+    float: left;
+}
+
+.supplier .item .btm .price b i{
+    color: #FF4500;
+    font-size: 18px;
+    float: left;
+}
+
+.supplier .item .btm .sererDec {
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 24px;
+}
+.supplier .item .btm .sererDec a{
+    color: #03c;
+    margin-left: 10px;
+}
+.supplier .item .btm .sererDec .allShow {
+    color: #3069E6
+}
+.supplier .item .btm .quotes{
+    margin-top: 14px;
+    font-size: 16px;
+}
+.supplier .item .btm .quotes .quotesItems{
+  color:#3069E6;
+}
+/*应答中*/
+.ico-demand-answer {
+    width: 88px;
+    height: 34px;
+    background-image: url("../img/ico-demand-answer.png");
+}
+
+/*需求关闭*/
+.ico-demand-close {
+    width: 108px;
+    height: 34px;
+    background-image: url("../img/ico-demand-close.png");
+}
+
+/*待反馈*/
+.ico-demand-feedback {
+    background-image: url("../img/ico-demand-feedback.png");
+}
+
+/*已结束*/
+.ico-demand-over {
+    width: 88px;
+    height: 34px;
+    background-image: url("../img/ico-demand-over.png");
+}
+
+/*执行结果*/
+.ico-demand-result {
+    width: 162px;
+    height: 34px;
+    background-image: url("../img/ico-demand-result.png");
+}
+
+/*待审核*/
+.ico-demand-wait-audit {
+    width: 88px;
+    height: 34px;
+    background-image: url("../img/ico-demand-wait-audit.png");
+}
+
+/*待确认*/
+.ico-demand-wait-ok {
+    width: 92px;
+    height: 34px;
+    background-image: url("../img/ico-demand-wait-ok.png");
+}
+
+.layerModal .Modal .cont {
+    width: 100%;
+    padding: 32px 26px;
+    overflow: hidden;
+}
+.layerModal .Modal .cont .top {
+    width: 100%;
+    font-size: 16px;
+}
+
+.layerModal .Modal .cont .md textarea {
+    width: 100%;
+    height: 138px;
+    border: 1px solid #E8E8E8;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.layerModal .Modal .cont .bottom {
+    width: 100%;
+}
+
+.layerModal .Modal .cont .bottom > a {
+    width: 88px;
+    height: 33px;
+    display: inline-block;
+    line-height: 31px;
+    text-align: center;
+    background: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+}
+
+.layerModal .Modal .cont .bottom span {
+    font-size: 14px;
+    margin-left: 24px;
+}
+
+.layerModal .Modal .cont .bottom span a {
+    color: #57B9FF;
+}
+
+.layerModal .Modal .cont .submit {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+.layerModal .Modal .cont .submit a {
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.layerModal .Modal .cont .submit a.back {
+    margin-right: 10px;
+    border: 1px solid #D3D3D3;
+}
+
+.layerModal .Modal .cont .submit a.ok {
+    background-image: linear-gradient(90deg, #FFE55C 0%, #FFC72F 100%);
+}
+
+.layerModal .Modal .cont .tips {
+    font-size: 20px;
+    padding: 95px 60px;
+}
+
+.layerModal .Modal .cont.answer .md{
+    width: 100%;
+    margin-top:40px;
+}
+.layerModal .Modal .cont.answer .bt{
+    position: relative;
+}
+.layerModal .Modal .cont.answer .bt span{
+    width: 100%;
+    margin-left: 0;
+}
+.layerModal .Modal .cont.answer .bt .file{
+    position:absolute;
+    top: 34px;
+    left: 0;
+    width: 88px;
+    height: 33px;
+    background: #000000;
+    opacity: 0;
+}
+.layerModal .Modal .cont.answer .bt .buttonUpload > a{
+    width: 88px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    background: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    margin-right: 24px;
+    margin-top: 14px;
+}
+.layerModal .Modal .cont.answer .bt{
+    width: 403px;
+    height: 75px;
+    color: #979797;
+    line-height: 26px;
+}
+.layerModal .Modal .cont.answer .bt.on{
+    padding: 10px 20px;
+    background: #F7F8FA;
+    border: 1px dashed #E8E8E8;
+}
+.newspaperPrice{
+    color:#000;
+}
+.newspaperName{
+    width:250px;
+    height:25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.downLoad{
+    color: #3069E6;
+    text-decoration: underline;
+    margin-right: 18px;
+}
+.deletes{
+    color: #FF1D1D;
+    text-decoration: underline;
+}
+/*服务*/
+.demandDetail.serviceDetail .WriteDemand.tips .ico-check-blue{
+    margin:2px 10px 0 0;
+}
+.demandDetail.serviceDetail .WriteDemand.tips a{
+    color: #85B8FF;
+}
+.demandDetail.serviceDetail .WriteDemand.cover img{
+    margin-top: 14px;
+    width: 130px;
+    height: 130px;
+    background: #D8D8D8;
+    border: 1px solid #979797;
+    float: left;
+}
+.demandDetail.serviceDetail .WriteDemand.cover .fileUpload .addAttach{
+    margin-left: 16px;
+    width: 88px;
+    height: 33px;
+    line-height: 32px;
+    text-align: center;
+    background: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+}
+.demandDetail.serviceDetail .WriteDemand.cover .fileUpload{
+    margin-top: 14px;
+    width: 800px;
+}
+.demandDetail.serviceDetail .WriteDemand.cover .fileUpload input{
+    background: #000000;
+    width: 88px;
+    height: 33px;
+    position: relative;
+    left: -88px;
+    opacity: 0;
+}
+.demandDetail.serviceDetail .WriteDemand.cover .tipsText{
+    margin-top: 16px;
+}
+.demandDetail.serviceDetail .WriteDemand.cover .tipsText span{
+    margin-left: 16px;
+    color: #FF4B4B;
+    font-size: 12px;
+    float: left;
+    display: block;
+}
+
+/*指定服务商*/
+.demandDetail .CreateDemand .WriteDemand .answerType{
+    margin-top: 20px;
+}
+.demandDetail .CreateDemand .WriteDemand .answerType li,.demandDetail .CreateDemand .WriteDemand .answerType li span{
+    float: left;
+}
+.demandDetail .CreateDemand .WriteDemand .answerType li{
+    margin-right: 30px;
+}
+.demandDetail .CreateDemand .WriteDemand .answerType li span{
+    margin-left: 10px;
+}
+.answerSupplier .Modal{
+    width: 800px;
+    margin-left: -400px;
+}
+.answerSupplier .Modal .list{
+    width: 100%;
+}
+.answerSupplier .Modal .list li{
+    width: 100%;
+    float: left;
+}
+.answerType .selectList{
+    width:506px;
+    background: #F7F8FA;
+    height:auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 11px;
+}
+.answerType .selectList li{
+    width: 100%;
+    height:auto;
+    font-size: 14px;
+    padding:6px 12px 0 12px;
+    box-sizing: border-box;
+}
+.answerType .selectList li:last-child{
+    padding-bottom:6px;
+}
+.answerType .selectList li .serviceImg{
+    width:28px;
+    height:28px;
+    border:1px solid #EEF0F3;
+    background-size: 28px 28px!important;
+    margin-right: 12px;
+}
+.answerType .selectList li .serviceTitle{
+    margin-top: 5px;
+    width:182px;
+    height:16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 90px;
+    line-height: 16px;
+}
+.answerType .selectList li .serviceAddress{
+    margin-top:5px;
+}
+.answerType .selectList li .deleteBtn{
+    color: #FF1D1D;
+    margin-top: 5px;
+}
+.answerType .search input{
+    border: 1px solid #cccccc;
+    width: 500px;
+    height: 34px;
+    line-height: 34px;
+}
+.demandDetail .CreateDemand .WriteDemand .answerType > ul{
+    width:100%;
+    height:33px;
+}
+.demandDetail .CreateDemand .WriteDemand .answerType .serviceBtn{
+    width:103px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    background: #F2F2F2;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    display: block;
+    margin-top: 10px;
+
+}
+/*指定服务商*/
+.layerModal .Modal .suppliers .search{
+    width: 100%;
+    height: 64px;
+    padding: 14px 26px;
+    box-sizing: border-box;
+    line-height:44px;
+    font-size: 16px;
+}
+.layerModal .Modal .suppliers .search>input{
+    width:317px;
+    height: 36px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px 0 0 6px;
+    border-right:0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.layerModal .Modal .suppliers .search>.searchSubmit{
+    width:80px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    border-radius: 0  6px 6px 0;
+    display: inline-block;
+}
+.layerModal .Modal .suppliers .list{
+    overflow: hidden;
+}
+.layerModal .Modal .suppliers .list .listCon{
+    width:100%;
+    height: 374px;
+    background: #F5F6F7;
+    overflow: hidden;
+}
+.layerModal .Modal .suppliers .list .listCon .searchTap{
+    text-align: center;
+    font-size: 18px;
+    line-height: 374px;
+}
+.layerModal .Modal .suppliers .list .listCon li{
+    width:100%;
+    height: 75px;
+    padding:12px 26px;
+    box-sizing: border-box;
+    border-bottom:1px solid #DADADA;
+}
+.layerModal .Modal .suppliers .list .listCon li.on{
+    background:#FFF6DF;
+}
+.layerModal .Modal .suppliers .list .listCon li:nth-child(5n){
+    border-bottom: 0;
+}
+.layerModal .Modal .suppliers .list .listCon li>.ico-check-blue{
+    margin:16px 16px 0 0;
+}
+.layerModal .Modal .suppliers .list .listCon li .pic{
+    width:50px;
+    height: 50px;
+    border-radius: 3px;
+    margin-right: 12px;
+    background-size: 50px 50px;
+}
+.layerModal .Modal .suppliers .list .listCon li .desc{
+    width:450px;
+    overflow: hidden;
+}
+.layerModal .Modal .suppliers .list .listCon li .desc .title{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.layerModal .Modal .suppliers .list .listCon li .desc .service{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #979797;
+    overflow: hidden;
+    margin-left: -10px;
+    text-overflow: ellipsis;
+}
+.layerModal .Modal .suppliers .list .listCon li .address{
+    width: 180px;
+    font-size: 14px;
+    color: #979797;
+    margin-top: 0;
+}
+.layerModal .Modal .suppliers .list .listCon li .address .ico-address{
+    width:12px;
+    height:16px;
+    margin-top: 2px;
+}
+.layerModal .Modal .suppliers .page{
+    border-bottom: solid 1px #DADADA;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    margin-top: 15px!important;
+}
+.layerModal .Modal .ensure{
+    width:100%;
+    height:68px;
+    clear: both;
+ /*   border-top: solid 1px #DADADA;*/
+    padding-left: 26px;
+    box-sizing: border-box;
+    line-height: 68px;
+    font-size: 16px;
+}
+.layerModal .Modal .ensure .ensureBtn{
+    width:190px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 6px;
+    margin:14px 314px 0 0;
+}
+.layerModal .Modal .ensure .noEnsureBtn{
+    background: #ECECEC;
+    border-radius: 6px;
+    color: #979797;
+}
+.layerModal{
+    z-index:9999;
+}
+.SupplierModal{
+    height:615px !important;
+}

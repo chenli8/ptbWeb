@@ -1,0 +1,646 @@
+@charset "UTF-8";
+/*浮窗*/
+.FloatWindow {
+    width: 40px;
+    height: 255px;
+    background: rgba(50, 54, 64, 0.70);
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 9;
+    padding: 20px 0;
+}
+
+.FloatWindow .sidebar-appDownload {
+    width: 45px;
+    height: 74px;
+    background-image: linear-gradient(-180deg, #FFDC1F 0%, #FFBA00 100%);
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.08);
+    position: absolute;
+    left: -5px;
+}
+
+.FloatWindow .sidebar-appDownload .ico-sidebar-appDownload {
+    margin: 5px 0 0 14px;
+}
+
+.FloatWindow .sidebar-appDownload span {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.FloatWindow .sidebar-appDownload .ico-code {
+    width: 120px;
+    height: 120px;
+}
+
+.FloatWindow .sidebar-appDownload .ico-code .ico-code1 {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: -120px;
+    top: 0
+}
+
+.FloatWindow .sidebar-service {
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    top: 110px;
+    left: 5px;
+    cursor: pointer;
+}
+.FloatWindow i{
+    display: inline-block!important;
+}
+.FloatWindow .sidebar-service .ico_infoTipsRed {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.FloatWindow .sidebar-collection {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 160px;
+    left: 7px;
+    cursor: pointer;
+}
+
+.FloatWindow .sidebar-top {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    cursor: pointer;
+}
+
+/*聊天通用*/
+.chat {
+    height: auto;
+    background: #FFFFFF;
+}
+
+.chat .top {
+    width: 100%;
+    height: 64px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.chat .top .userImage {
+    width: 40px;
+    height: 40px;
+    margin: 12px 14px 0 15px;
+    border-radius: 20px;
+}
+
+.chat .top .desc {
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 24px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.chat .top .desc .userName {
+    color: #FFBA00;
+}
+
+.chat .bottom {
+    width: 100%;
+    height: 257px;
+    background: #F7F8FA;
+    border-top: 1px solid #E8E8E8;
+}
+
+.chat textArea {
+    border: 1px solid #D3D3D3;
+    width: 371px;
+    height: 178px;
+    margin: 12px 10px 0 11px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.chat textArea::placeholder {
+    color: #9B9B9B;
+}
+
+.chat .bottom .send {
+    width: 90px;
+    height: 39px;
+    line-height: 39px;
+    font-size: 14px;
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.chat .list {
+    width: 100% !important;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    margin: 0 !important;
+}
+
+.chat .list ul {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.chat .list li {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 0 15px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.chat .list .pic {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+    position: inherit !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-size: 35px 35px;
+}
+
+.chat .list .buyer .pic {
+    float: right;
+}
+
+.chat .list .pic {
+    margin-top: 0 !important;
+}
+
+.chat .list .info {
+    float: left;
+    width: auto !important;
+    max-width: 270px !important;
+    height: auto !important;
+    word-wrap: break-word;
+    padding: 10px !important;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.chat .list .buyer .info {
+    float: right;
+    background: #4990E2;
+    color: #FFFFFF;
+    margin-right: 7px;
+    position: relative;
+    margin-top: 0 !important;
+}
+
+.chat .list .buyer .info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.chat .list .seller .info {
+    float: left;
+    background: #FAFAFA;
+    color: #252525;
+    margin-left: 7px;
+    margin-top: 0 !important;
+}
+
+.ico-chat-sendFail {
+    background: url("../img/ico-chat-sendFail.png");
+    background-size: contain;
+}
+
+.chat .list li .ico-loading, .chat .list li .ico-chat-sendFail {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -25px;
+    top: 10px;
+}
+
+.chat .list li .ico-chat-sendFail {
+    cursor: pointer;
+}
+
+.chat .list .seller .info span, .chat .list .buyer .info span {
+    display: inline-block;
+    word-break: break-all; /*支持IE，chrome，FF不支持*/
+    word-wrap: break-word; /*支持IE，chrome，FF*/
+}
+
+.chat .list .seller .info a {
+    color: #252525;
+    text-decoration: underline;
+}
+
+.ico_chatLeft {
+    position: absolute !important;
+    left: 46px !important;
+    top: 10px !important;
+    border: 10px solid transparent;
+    border-right-color: #FAFAFA;
+    width: 0;
+    height: 0;
+}
+
+.ico_chatRight {
+    position: absolute !important;
+    right: 46px !important;
+    top: 10px !important;
+    border: 10px solid transparent;
+    border-left-color: #4990E2;
+    width: 0;
+    height: 0;
+    left: inherit !important;
+}
+
+.chat .list li.date {
+    background: none;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    padding: 0 !important;
+}
+
+/*chatSingle*/
+.chatSingle {
+    width: 392px;
+    height: auto;
+    border: 1px solid #E8E8E8;
+    position: fixed;
+    right: 50%;
+    margin-right: -600px;
+    top: 100px;
+}
+
+.chatSingle .list {
+    height: 400px;
+}
+
+/*在线客服*/
+.chatService {
+    width: 392px;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    box-shadow: -3px 0 10px 0 hsla(0, 0%, 44%, .25), inset 0 -1px 0 0 #ededed;
+}
+
+/*msg*/
+.chatMsg {
+    width: 620px;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 70px;
+    right: 0;
+    margin-left: -25px;
+    background: #FFFFFF;
+    box-shadow: -3px 0 10px 0 rgba(111, 111, 111, 0.25), inset 0 -1px 0 0 #EDEDED;
+    cursor: default;
+}
+
+.chatMsg .left {
+    width: 200px;
+    height: 100%;
+    box-shadow: inset 0 -1px 0 0 #EDEDED;
+}
+
+.chatMsg .right {
+    width: 420px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0 0 0 0 #EDEDED, inset 1px 0 0 0 #EDEDED;
+}
+
+.chatMsg .right .head .text {
+    font-weight: bold;
+    height: 64px;
+    line-height: 64px;
+    font-size: 16px;
+    color: #252525;
+}
+
+.chatMsg .right .head .userImage {
+    margin: 10px 15px
+}
+
+.chatMsg .right .head .userImage i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+}
+
+.chatMsg .head {
+    height: 64px;
+    width: 100%;
+    box-shadow: inset 0 -1px 0 0 #EDEDED;
+}
+
+.chatMsg .left .head {
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 15px;
+}
+
+.chatMsg .left .head .ico-close {
+    margin: 19px;
+    cursor: pointer;
+}
+
+.chatMsg .left .head .ico-close {
+    margin: 19px;
+    cursor: pointer;
+}
+
+.chatMsg .left .list {
+    width: 200px;
+    height: auto;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    box-shadow: inset -1px 0 0 0 #EDEDED;
+}
+
+.chatMsg .left .list ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.chatMsg .left .list ul li {
+    width: 200px;
+    height: 60px;
+    box-shadow: inset 0 -1px 0 0 #EDEDED;
+    font-size: 14px;
+    color: #646464;
+    line-height: 60px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    margin-top: 0;
+}
+
+.chatMsg .left .list ul li i {
+    margin-top: 10px !important;
+}
+
+.chatMsg .left .list ul li.on {
+    background: #EDEDED;
+}
+
+.chatMsg .left .list ul li .pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin: 12px 0 0 18px;
+}
+
+.chatMsg .left .list ul li .text {
+    width: 102px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.chatMsg .left .list ul li .ico_infoTipsRed {
+    top: 18px;
+    right: 15px;
+}
+
+.chatMsg .right .list {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.chatMsg .right .list ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.chatMsg .right .list ul li {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.chatMsg .right .list .info {
+    float: left;
+    width: auto !important;
+    max-width: 310px !important;
+    height: auto !important;
+    word-wrap: break-word;
+    padding: 10px !important;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.chatMsg .right .list .toChat .info {
+    width: 309px;
+    float: left;
+    background: #FAFAFA;
+    color: #252525;
+    margin-left: 7px;
+}
+
+.chatMsg .right .list .toChat .info a {
+    color: #252525;
+    text-decoration: underline;
+}
+
+.chatMsg .right .list .toChat .info span, .chatMsg .right .list .info span {
+    display: inline-block;
+    word-break: break-all; /*支持IE，chrome，FF不支持*/
+    word-wrap: break-word; /*支持IE，chrome，FF*/
+}
+
+.chatMsg .right .list .pic {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    margin-top: 8px;
+    position: inherit !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.chat .list .meChat .pic {
+    float: right;
+}
+
+.chatMsg .right .list .pic {
+    margin-top: 0 !important;
+}
+
+.chatMsg .right .list .ico_chatLeft {
+    left: 40px !important;
+}
+
+.chatMsg .right .list .meChat .ico_chatRight {
+    right: 40px !important;
+}
+
+.chatMsg .right .list .meChat .pic {
+    float: right;
+}
+
+.chatMsg .right .list .meChat .info {
+    float: right;
+    background: #4990E2;
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+
+.chatMsg .right .list .meChat .info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.chatMsg .right .cont {
+    width: 420px;
+    height: 240px;
+    background: #F7F8FA;
+    box-shadow: inset 0 -1px 0 0 #E9E9E9;
+    border-top: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+    padding: 0!important;
+}
+.chatMsg .right .cont .bottom .send{
+    margin-top: 0;
+}
+.chatMsg .right .cont textarea {
+    width: 400px;
+
+}
+
+.chatMsg .right .list .tips {
+    position: relative;
+    top: -14px;
+    width: 100%;
+    text-align: center;
+    color: #646464;
+}
+
+.chatMsg .right .list ul li.date, .chat .list ul li.date {
+    background: none;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    padding: 0 !important;
+    margin: 0!important;
+}
+
+/*交易消息*/
+.ico-paymsg {
+    background-image: url("../img/ico-msgInfoPay.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*系统消息*/
+.ico-sysmsg {
+    background-image: url("../img/ico-msgInfoSys.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sysMsg {
+    background-color: #fff;
+    width: 420px;
+    right: 0;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.sysMsg li {
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px !important;
+}
+
+.sysMsg li .title {
+    font-size: 14px;
+    color: #252525;
+}
+
+.sysMsg li .message, .sysMsg li .detail {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #787878;
+}
+
+.sysMsg li .detail {
+    margin-top: 0;
+    text-align: right;
+}
+
+.sysMsg li.date {
+    background: none;
+    text-align: center;
+    font-size: 12px;
+    color: #787878;
+    padding: 0 !important;
+}
+
+.sysMsg li.loading {
+    background: none;
+    text-align: center;
+    color: #787878;
+}
+
+.sysMsg li .ico-loading {
+    width: 20px;
+    height: 20px;
+    top: inherit;
+    left: inherit;
+    position: inherit;
+    margin-left: 170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

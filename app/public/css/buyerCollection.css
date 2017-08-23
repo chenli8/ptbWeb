@@ -1,0 +1,279 @@
+@charset "UTF-8";
+.collectionCon{
+    background-color: white;
+    min-height: 717px;
+}
+.collectionCon .serverNav{
+    width:100%;
+    height:59px;
+    padding-left:20px;
+    box-sizing: border-box;
+    background:white;
+    border-bottom: 1px solid #E8E8E8;
+}
+.collectionCon .serverNav a{
+    height:59px;
+    line-height: 59px;
+    text-align: center;
+    color: #979797;
+    float: left;
+    margin-right: 45px;
+    padding:0 10px;
+    font-size: 16px;
+}
+.collectionCon a .ico-down{
+    margin-top:27px ;
+    margin-left: 5px;
+}
+.collectionCon .serverNav a.on{
+    border-bottom: 4px solid #FFC72F;
+    color:#252525;
+}
+.collectionCon .collectionTopCon {
+    height: 20px;
+    background-color: #FAFBFC;
+}
+.collectionCon .collectionSubTopCon {
+    height: 10px;
+    background-color: #FAFBFC;
+}
+.collectionCon .subServerNav {
+    height: 60px;
+    border: 1px solid #e8e8e8;
+}
+.collectionCon .subServerNav a{
+    display: inline-block;
+    width: 99px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #979797;
+    font-size: 16px;
+}
+.collectionCon .subServerNav a.on{
+    background-color: #FFC72F;
+    color: #252525;
+}
+
+.Cooperat{
+    background: #fff;
+}
+.myCooperateCon{
+    min-height:544px;
+}
+/*收藏条目样式*/
+.collectShopList{
+    height: auto;
+}
+.collectShopList li{
+}
+.collectShopList li .shopItem{
+    width:100%;
+    height:134px;
+    border-bottom: solid 1px #E8E8E8;
+    padding:20px 24px;
+    box-sizing: border-box;
+}
+.collectShopList li .shopItem{
+    overflow: hidden;
+}
+.collectShopList li .shopItem .lefts .img .pic > i{
+    width:89px;
+    height:89px;
+    border-radius: 3px;
+    margin-right: 12px;
+    background-size:89px 89px !important;
+}
+.collectShopList li .shopItem .lefts .info{
+    width:300px;
+}
+.collectShopList li .shopItem .lefts .info .name{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.collectShopList li .shopItem .lefts .info .server{
+    font-size: 14px;
+    color: #979797;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.collectShopList li .shopItem .lefts .info .address{
+    height: 20px;
+    line-height: 20px;
+    color: #979797;
+    margin-top:8px;
+    overflow: hidden;
+}
+.collectShopList li .shopItem .lefts .info .address .ico-address{
+    margin-left: 38px;
+    margin-top:1px;
+    margin-right: 8px;
+}
+.collectShopList li .shopItem .rights{
+    width: 430px;
+}
+.collectShopList li .shopItem .rights .payData{
+    height: auto;
+    margin-top: 20px;
+}
+.collectShopList li .shopItem .rights .payData ul li{
+    margin-right: 40px;
+    font-size: 16px;
+    color: #979797;
+}
+.collectShopList li .shopItem .rights .payData ul li span{
+    color: #252525;
+    font-weight: bolder;
+}
+.collectShopList li .shopItem .rights .rightBtns{
+    height: 30px;
+    margin-top: 30px;
+}
+.collectShopList li .shopItem .rights .rightBtns>a{
+    float: left;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    margin-left:10px;
+}
+.collectShopList li .shopItem .rights .rightBtns>a.dis{
+    background-color: #dedede;
+}
+.collectShopList li .shopItem .rights .rightBtns>i{
+    float: left;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    background: url("../../public/img/ico-delete-shop.png") no-repeat;
+    background-size: 30px 30px;
+    cursor: pointer;
+}
+
+/*收藏的服务相关样式*/
+.collectServerList{
+    height: auto;
+}
+.collectServerList li .serverItem{
+    width:291px;
+    height:371px;
+    background: white;
+    border:1px solid #E8E8E8;
+    margin-top: 15px;
+}
+.collectServerList li{
+    width:291px;
+    height:371px;
+    float: left;
+    margin:0  12px 15px 0;
+}
+.collectServerList li:nth-child(3n){
+    margin-right:0;
+
+}
+.collectServerList li .serverItem .serImg{
+    width:289px;
+    height:210px;
+    position: relative;
+}
+.collectServerList li .serverItem .serImg .failure{
+    width:67px;
+    height:27px;
+    background:red;
+    right:-5px;
+    top:11px;
+    position: absolute;
+    background: url(../img/failure.png);
+    background-size: 67px 27px;
+}
+.collectServerList li .serverItem .serImg img{
+    width:289px;
+    height:210px;
+    background-size: cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+}
+.collectServerList li .serverItem .info{
+    width:100%;
+    height:160px;
+    padding:12px;
+    box-sizing: border-box;
+}
+.collectServerList li .serverItem .info .head{
+    width:260px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.collectServerList li .serverItem .info .deal{
+    font-size: 12px;
+    color: #979797;
+}
+.collectServerList li .serverItem .info .deal b{
+    margin-right: 22px;
+}
+.collectServerList li .serverItem .info .price{
+    width: 150px;
+    font-size: 16px;
+    color: #FF4500;
+    margin-top: 20px;
+}
+.collectServerList li .serverItem .info .price span i{
+    float: left;
+}
+.collectServerList li .serverItem .info .price sub{
+    margin-left: 5px;
+    font-size: 12px;
+    vertical-align: bottom;
+    display: inline-block;
+}
+.collectServerList li .serverItem .info .ContBtn{
+    width:86px;
+    height:28px;
+    border: 1px solid #FFC72F;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: 20px;
+    color: #FFC72F;
+    font-size: 16px;
+    cursor: pointer;
+}
+.collectServerList li .serverItem .info  .shopName{
+    width:100%;
+    height: 35px;
+    margin-top: 69px;
+    font-size: 12px;
+    color: #979797;
+    border-top:solid 1px #E8E8E8;
+    line-height: 35px;
+    background: url("../../public/img/ico-shop.png") 0 9px no-repeat;
+    background-size: 20px 20px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.collectServerList li .serverItem .info  .shopName i{
+    width:5px;
+    height: 8px;
+    background-size: 5px 8px;
+    background: url("../../public/img/ico-right.png") -5px -4px no-repeat;
+    margin-top: 15px;
+    float: right;
+}
+.noListTap{
+    font-size:16px;
+    text-align: center;
+    margin-top:173px;
+}
+
+

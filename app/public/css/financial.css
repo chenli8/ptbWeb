@@ -1,0 +1,464 @@
+/*金融首页*/
+.factoring {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.factoring .factBanner {
+    width: 1200px;
+    height: 495px;
+}
+
+.factoring .factBanner .banners {
+    width: 897px;
+    height: 495px;
+    background: url("../img/financial/financial-index-banner.png");
+    background-size: 897px 495px;
+}
+
+.factoring .factBanner .loginUser {
+    width: 291px;
+    height: 495px;
+    background: #fff;
+
+}
+
+.factoring .factBanner .loginUser .uerInfo {
+    margin-top: 27px;
+}
+
+.factoring .factBanner .loginUser .uerInfo dl {
+    text-align: center
+}
+
+.factoring .factBanner .loginUser .uerInfo dl dt {
+    width: 86px;
+    height: 86px;
+    border-radius: 100%;
+    margin: auto;
+    background-size: 86px 86px;
+}
+
+.factoring .factBanner .loginUser .uerInfo dl dd {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.factoring .factBanner .loginUser .userMoney {
+    margin: 43px 0 0 0px;
+    font-size: 14px;
+    color: #979797;
+    overflow: hidden;
+}
+
+.factoring .factBanner .loginUser .userMoney .userBrand {
+    width: 140px;
+    height: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.factoring .factBanner .loginUser .userMoney .loginBtn {
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    float: left;
+    margin-left: 78px;
+}
+
+.factoring .factBanner .loginUser .userMoney > div {
+    text-align: center;
+    width: 130px;
+    height: 56px;
+}
+
+.factoring .factBanner .loginUser .userMoney > div:first-child {
+    margin-right: 10px;
+}
+
+.factoring .factBanner .loginUser .userMoney b {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.factoring .factBanner .loginUser .userCont {
+    width: 100%;
+    height: 91px;
+    margin-top: 10px;
+}
+
+.factoring .factBanner .loginUser .userCont a {
+    margin-top: 7px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+.factoring .factBanner .loginUser .userCont a.myAccount{
+    margin-left: 30px;
+}
+.factoring .factBanner .loginUser .userCont a.myHelp{
+    margin-left: 30px;
+}
+.factoring .factBanner .loginUser .userCont.on {
+    background: url("../img/financial/financial-index-login-personCenter.png") -10px;
+    background-size: 313px 91px;
+}
+
+.factoring .factBanner .loginUser .platforms {
+    width: 291px;
+    height: 155px;
+    background: url("../img/financial/financial-index-login-platform.png");
+    background-size: 291px 155px;
+}
+
+.factoring .subBanner {
+    width: 1200px;
+    height: 195px;
+    margin-top: 12px;
+}
+
+.factoring .subBanner > div {
+    width: 594px;
+    height: 195px;
+}
+
+.factoring .subBanner .project {
+    background: url("../img/financial/subProject.png");
+    background-size: 594px 195px;
+    width: 594px;
+    height: 195px;
+}
+
+.factoring .subBanner .protect {
+    background: url("../img/financial/subProtect.png");
+    background-size: 594px 195px;
+    width: 594px;
+    height: 195px;
+}
+
+.factoring .projectCon {
+    width: 100%;
+    height: 305px;
+    margin-top: 131px;
+    position: relative;
+}
+
+.factoring .projectCon .money1 {
+    width: 104px;
+    height: 104px;
+    background: url("../img/financial/financial-index-money1.png");
+    background-size: 104px 104px;
+    position: absolute;
+    left: 342px;
+    top: -30px;
+}
+
+.factoring .projectCon .money2 {
+    width: 64px;
+    height: 56px;
+    background: url("../img/financial/financial-index-money2.png");
+    background-size: 64px 56px;
+    position: absolute;
+    right: -30px;
+    bottom: 0px;
+}
+
+.factoring .projectCon .money3 {
+    width: 60px;
+    height: 70px;
+    background: url("../img/financial/financial-index-money3.png");
+    background-size: 60px 70px;
+    position: absolute;
+    left: -0px;
+    bottom: 0px;
+}
+
+.factoring .projectCon1 {
+    background: url("../img/financial/financial-index-banner1.png");
+    background-size: 1200px 305px;
+    margin-bottom: 90px;
+}
+
+.factoring .projectCon2 {
+    background: url("../img/financial/financial-index-banner2.png");
+    background-size: 1200px 305px;
+}
+
+.factoring .projectCon .Application {
+    width: 281px;
+    height: 373px;
+    position: absolute;
+    left: 101px;
+    bottom: -12px;
+}
+
+.factoring .projectCon .pro1 {
+    background: url("../img/financial/pro1.png");
+    background-size: 281px 373px;
+}
+
+.factoring .projectCon .pro2 {
+    background: url("../img/financial/pro2.png");
+    background-size: 281px 373px;
+}
+
+.factoring .projectCon .ApplicationType {
+    width: 700px;
+    height: 305px;
+    padding: 52px 0;
+    margin: 0px 0 0 484px;
+    box-sizing: border-box;
+}
+
+.factoring .projectCon .ApplicationType .items {
+    width: auto;
+    height: 70px;
+    font-size: 14px;
+    color: #979797;
+    margin: 0 58px 60px 0;
+}
+
+.factoring .projectCon .ApplicationType .items > i {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: solid 1px #ccc;
+    margin-right: 22px;
+}
+
+.factoring .projectCon .ApplicationType .items .name {
+    margin-top: 12px;
+}
+
+.factoring .projectCon .ApplicationType .items .name b {
+    font-size: 20px;
+    display: block;
+    color: #252525;
+}
+
+.factoring .protectCon {
+    margin-top: 159px;
+    background: url("../img/protectbg.png");
+    background-size: 1200px 305px;
+    margin-bottom: 93px;
+}
+
+.factoring .projectCon .moneyBtm {
+    width: 103px;
+    height: 90px;
+    position: absolute;
+    bottom: -140px;
+    left: 820px;
+    z-index: 22;
+    background: url("../img/moneyBtm.png");
+    background-size: 103px 90px;
+}
+
+/*项目贷 保理*/
+.factorCon {
+    width: 1300px;
+    height: auto;
+    margin: auto;
+}
+
+.factorCon .banner {
+    width: 1300px;
+    height: 589px;
+    margin-bottom: 77px;
+}
+
+.factorCon .project-banner1 {
+    background: url("../img/financial/financial-project-banner1.png");
+    background-size: 1300px 589px;
+    cursor: pointer;
+}
+
+.factorCon .protect-banner1 {
+    background: url("../img/financial/financial-protect-banner1.png");
+    background-size: 1300px 589px;
+    cursor: pointer;
+}
+
+.factorCon .share {
+    width: 1300px;
+    height: auto;
+}
+
+.factorCon .share .title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.factorCon .share .sub{
+    font-size: 16px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto 45px;
+}
+.factorCon .share .pics {
+    width: 1300px;
+    height: 321px;
+}
+
+.factorCon .share .projectPics {
+    background: url("../img/financial/financial-project-pic.png");
+    background-size: 1300px 321px;
+}
+
+.factorCon .share .protectPics {
+    background: url("../img/financial/financial-protect-pics.png");
+    background-size: 1300px 321px;
+}
+
+.factorCon .step {
+    width: 1300px;
+    height: 419px;
+    margin-top: 22px;
+}
+
+.factorCon .projectStep {
+    height:525px;
+    background: url("../img/financial/financial-projact-step.png");
+    background-size: 1300px 525px;
+    cursor: pointer;
+}
+
+.factorCon .protectStep {
+    height: 695px;
+    background: url("../img/financial/financial-protectStep.png");
+    background-size: 1300px 695px;
+}
+
+.factorCon .platform {
+    width: 1300px;
+    height: 281px;
+    margin: 31px 0 60px 0;
+    background: url("../img/financial/financial-platform-pic.png");
+    background-size: 1300px 281px;
+}
+
+/*弹窗*/
+.layerBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.layerBox .layerCon {
+    position: absolute;
+    background: #fff;
+    width: 594px;
+    height: auto;
+    top: 50%;
+    margin-left: -297px;
+    margin-top: -300px;
+    left: 50%;
+    padding-bottom: 20px;
+}
+
+.layerBox .layerCon .conTop {
+    width: 594px;
+    height: 145px;
+    padding: 21px 27px 21px 32px;
+    background: url("../img/facTop.png");
+    background-size: 594px 145px;
+}
+
+.layerBox .layerCon .conTop .title {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.layerBox .layerCon .conTop .title .closeBtn {
+    width: 25px !important;
+    height: 25px !important;
+    background-image: url("../img/financial/financial-layerClose.png");
+    background-size: 25px 25px !important;
+    border-radius: 0 !important;
+}
+
+.layerBox .layerCon .conTop .userInfo {
+    color: #FFFFFF;
+}
+
+.layerBox .layerCon .conTop .userInfo > div:first-child {
+    margin-right: 150px;
+}
+
+.layerBox .layerCon .mid {
+    width: 100%;
+    height: 335px;
+    padding: 23px 32px;
+    box-sizing: border-box;
+}
+
+.layerBox .layerCon .mid > div {
+    margin-bottom: 18px;
+}
+
+.layerBox .layerCon .mid > div .inputText {
+    width: 526px;
+    height: 38px;
+    border: 1px solid #DADADA;
+    margin-top: 8px;
+}
+
+.layerBox .layerCon .submit {
+    width: 146px;
+    height: 46px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    margin: 45px 0 0 225px;
+}
+
+.layerBox .layerCon .orderSubmit {
+    background-image: linear-gradient(-90deg, #FF8D5C 0%, #FF623E 100%);
+}
+
+.layerBox .layerCon .mid > div .codeInput {
+    width: 235px;
+}
+
+.layerBox .layerCon .mid .codePic {
+    width: 112px;
+    height: 37px;
+    margin-left: 20px;
+    border: solid 1px #ccc;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.projectCredit .layerBox .layerCon .conTop {
+    height: 70px;
+    background: url("../img/financial/financial-projectCredit-topBg.png");
+    background-size: 100% 70px;
+}
+
+.protectSubmit {
+    background-image: linear-gradient(-90deg, #58ADFF 0%, #498CFF 100%);
+}
+
+
+
+
+
+
+
+
+
+

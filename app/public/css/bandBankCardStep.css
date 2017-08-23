@@ -1,0 +1,192 @@
+.bandBankCardOutCon{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: #f7f8fa;
+}
+.bandBankCardOutCon .bandBankCardCon{
+    width:796px;
+    margin:auto;
+}
+.bandBankCardOutCon .bandBankCardCon .bandBankCardStepCon{
+    height: 156px;
+    width:796px;
+    border: 1px solid #E8E8E8;
+    background-color: white;
+}
+.bandBankCardOutCon .bandBankCardCon .bandBankCardContent{
+    width:796px;
+    height: auto;
+    margin-top:20px;
+    border: 1px solid #E8E8E8;
+    background-color: white;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/*步骤一*/
+.bandBankCardStep1Con{
+    height: auto;
+    margin-top: 20px;
+}
+.bandBankCardStep1Con .companyBaseInfoTitle{
+    height: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.bandBankCardStep1Con .next{
+    width: 405px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*公用*/
+.commonTitle{
+    font-size: 18px;
+    color: #252525;
+}
+.commonSubTitle{
+    font-size: 16px;
+    color: #252525;
+}
+.commonInput{
+    width: 406px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #252525;
+    border: 1px solid #E8E8E8;
+    margin-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.commonMt-30{
+    margin-top: 30px;
+}
+.commonInputPrompt{
+    font-size: 16px;
+    color: #FF1D1D;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+/*步骤二*/
+.bandBankCardStep2{
+    height: 965px;
+}
+.bandBankCardStep2 .promptTopCon{
+    height: 38px;
+    line-height: 38px;
+}
+.bandBankCardStep2 .promptTopCon i{
+    width: 38px;
+    height: 38px;
+    margin-right: 20px;
+    background: url("../../public/img/ico-warn.png");
+    background-size: 38px 38px;
+    float: left;
+}
+.bandBankCardStep2 .name{
+    width: 370px;
+    height: 34px;
+    margin-top: 35px;
+    font-size: 16px;
+    color: #979797;
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+}
+.bandBankCardStep2 .name .title{
+    margin-left: 10px;
+}
+.bandBankCardStep2 .name .content{
+    width: 260px;
+    position: absolute;
+    right:0;
+    color: #252525;
+    text-align: right;
+}
+.bandBankCardStep2 .id{
+    width: 370px;
+    height: 34px;
+    margin-top: 35px;
+    font-size: 16px;
+    color: #979797;
+    position: relative;
+    border-bottom: 1px solid #E8E8E8;
+}
+.bandBankCardStep2 .id .title{
+    margin-left: 10px;
+}
+.bandBankCardStep2 .id .content{
+    width: 260px;
+    position: absolute;
+    right:0;
+    color: #252525;
+    text-align: right;
+}
+.bandBankCardStep2 .bottom{
+    height: 50px;
+    margin-top: 50px;
+}
+.bandBankCardStep2 .bottom .back{
+    width: 155px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+}
+.bandBankCardStep2 .bottom .submit{
+    width: 255px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+/*步骤三*/
+.bandBankCardSubmitSuccess{
+    height: 965px;
+    text-align: center;
+    padding-top: 50px;
+}
+.bandBankCardSubmitSuccess i{
+    width: 102px;
+    height: 102px;
+    margin: auto;
+    background: url("../../public/img/ico-auth-success.png");
+    background-size: 102px 102px;
+}
+.bandBankCardSubmitSuccess .title{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #252525;
+}
+.bandBankCardSubmitSuccess .subTitle{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #252525;
+}
+.bandBankCardSubmitSuccess .next{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    margin-top: 42px;
+    text-align: center;
+    border-radius: 6px;
+}

@@ -1,0 +1,364 @@
+/*提现一*/
+.withDraw .top{
+    width:100%;
+    height:210px;
+    padding:32px 25px;
+    box-sizing: border-box;
+    border-bottom:solid 1px  #DADADA;
+    overflow: hidden;
+}
+.withDraw .top .title{
+    font-size: 18px;
+}
+.withDraw .top .BuyerStep{
+    width:110%;
+    height:151px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding:30px 0px 0 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+.withDraw .top .BuyerStep .icoStep{
+    width:100px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 175px;
+}
+.withDraw .top .BuyerStep .lastStep{
+    margin-right: 0;
+}
+.withDraw .top .BuyerStep .icoStep i{
+    width:50px;
+    height:52px;
+    background: url(../img/ico-unStep.png) no-repeat;
+    background-size: contain;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 16px;
+    margin-left:20px;
+}
+.withDraw .top .BuyerStep .solid{
+    width:235px;
+    height:2px;
+    background:#45CA9F ;
+    position: absolute;
+}
+.withDraw .top .BuyerStep .firstSolid{
+    left:144px;
+    top:50px;
+}
+.withDraw .top .BuyerStep .secondSolid{
+    left:420px;
+    top:50px;
+}
+.withDraw .btm .tackDemand{
+    width:100%;
+    text-align: center;
+    margin-top: 65px;
+}
+.withDraw .btm .tackDemand dl dt{
+    width:100px;
+    height:100px;
+    border:solid 1px #ccc;
+    margin:auto;
+}
+.withDraw .btm .tackDemand dl dd{
+    font-size: 24px;
+    margin-top: 40px;
+}
+.withDraw .btm .tackDemand dl dd p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.withDraw .btm .tackDemand dl dd .sureBtn{
+    display: block;
+    width:285px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 6px;
+    margin:126px auto;
+}
+
+/*提现二*/
+.sellCard .top{
+    width:100%;
+    height:210px;
+    padding:32px 25px;
+    box-sizing: border-box;
+    border-bottom:solid 1px  #DADADA;
+    overflow: hidden;
+}
+.sellCard .top .titles{
+    font-size: 18px;
+}
+.sellCard .top .BuyerStep{
+    width:110%;
+    height:151px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding:30px 0px 0 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+.sellCard .top .BuyerStep .icoStep{
+    width:100px;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 175px;
+}
+.sellCard .top .BuyerStep .lastStep{
+    margin-right: 0;
+}
+.sellCard .top .BuyerStep .icoStep i {
+    width: 50px;
+    height: 52px;
+    background: url(../img/ico-unStep.png) no-repeat;
+}
+.sellCard .btm .sellCardInfo .carTop{
+    width:100%;
+    height:113px;
+    font-size: 18px;
+}
+.sellCard .btm .sellCardInfo .carTop>div{
+    width:50%;
+    height:113px;
+    text-align: center;
+    line-height: 113px;
+}
+.sellCard .btm .sellCardInfo .carBtm{
+    width:100%;
+    height:102px;
+    background: #FFC72F;
+    padding:26px 0;
+}
+.sellCard .btm .sellCardInfo .carBtm ul li{
+    float: left;
+    margin-left:132px;
+    font-size: 16px;
+    color: #BA901C;
+}
+.sellCard .btm .sellCardInfo .carBtm ul li b{
+    display: block;
+    font-size: 24px;
+    color: #252525;
+    margin-top: 8px;
+}
+.sellOrder .sellOrdTop{
+    padding: 25px 25px 0 25px;
+    box-sizing: border-box;
+}
+.sellOrdTop .sellSearch{
+    margin-top:20px;
+    height: 80px !important;
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 0 !important;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem{
+    width:849px;
+    height:125px;
+    border: 1px solid #E8E8E8;
+    margin:auto;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .title{
+    width:100%;
+    height:36px;
+    padding:0  15px;
+    box-sizing: border-box;
+    background: #ccc;
+    font-size: 16px;
+    line-height: 36px;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .title .ico-checked{
+    width:18px;
+    height:18px;
+    float: left;
+    margin-top: 8px;
+    border-radius: 100%;
+    border:solid 1px red;
+    margin-right: 20px;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .title b{
+    font-size: 16px;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .sellcon{
+    width:100%;
+    height:100px;
+    padding:25px  15px;
+    box-sizing: border-box;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .sellcon .require{
+    margin-right: 230px;
+    margin-top: 13px;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .sellcon .pri{
+    font-size: 14px;
+    color: #979797;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .sellcon .pri b{
+    font-size: 18px;
+    display: block;
+    margin-top: 6px;
+    color: #252525;
+}
+.sellCard .btm .sellOrdBtm .sellOrdItem .sellcon .money{
+    line-height: 24px;
+}
+ .searchs {
+    height: 38px;
+    margin-top: 15px;
+}
+
+.searchType {
+    font-size: 16px;
+    color: #252525;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 6px 0 0 6px;
+    background-color: #F7F8FA;
+    padding-left: 22px;
+    border:solid 1px #DADADA;
+    border-right:0;
+}
+
+.searchType i {
+    float: right;
+    margin: 16px 14px 0 0px;
+}
+
+.searchInput {
+    font-size: 16px;
+    height: 38px;
+    padding-left: 10px;
+    border:solid 1px #DADADA;
+    border-left:0;
+    border-radius: 0px 6px 6px 0px;
+}
+.searchBtn {
+    font-size: 16px;
+    height: 38px;
+    width: 90px;
+    line-height: 38px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/*提现二*/
+.CachCon{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    padding: 0 23px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.CachCon .title{
+    width:849px;
+    height:36px;
+    background: #F7F8FA;
+    line-height: 36px;
+}
+.CachCon .title ul{
+    margin-left: 27px;
+}
+.CachCon .title ul li{
+    float: left;
+    margin-right: 150px;
+    color: #979797;
+    font-size: 16px;
+}
+.CachCon .title ul li:nth-child(3){
+    margin-right: 200px;
+}
+.CachCon .title ul li:last-child{
+    margin-right: 0;
+}
+.CachCon .CachList{
+    width:849px;
+    padding-left:27px;
+    box-sizing: border-box;
+    margin-top: 23px;
+    height: auto;
+}
+.CachCon .CachList ul li{
+    margin-bottom: 32px;
+}
+.CachCon .CachList ul li .nums{
+    font-size: 16px;
+    margin-right: 69px
+}
+.CachCon .CachList ul li .pri{
+    font-size: 16px;
+    color: #FF4500;
+    margin-right: 130px
+}
+.CachCon .CachList ul li .getpri{
+    font-size: 16px;
+    color: #FF4500;
+    margin-right: 154px
+}
+.CachCon .CachList ul li .times{
+    margin-right:48px;
+    margin-right:48px;
+}
+.CachCon .CachList .showmore{
+margin-right: 20px;
+}
+.CachCon .CachList .showmore>a{
+    width: auto;
+    display: block;
+    color: #3069E6;
+}
+.CachCon .CachList .showmore a > i{
+    margin: 7px 30px 0 10px ;
+}
+.CachCon .getMoney{
+    margin-top: 62px;
+    font-size: 20px;
+    margin-left: 24px;
+    border-bottom: solid 1px #DADADA;
+    height:50px;
+}
+.CachCon .getMoney b{
+    font-size: 14px;
+    color: #FF4B4B;
+    margin-left:36px;
+}
+.getMoneyTap{
+    width:100%;
+    height:70px;
+    padding-left: 49px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height:70px;
+   border-bottom:solid 1px  #DADADA;
+}
+.getMoneyTap>b{
+    font-size: 14px;
+    color: #FF4B4B;
+    margin-left: 36px;
+}
+.nextBtns{
+    width:285px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin:0  25px 0 10px;
+    border-radius: 6px;
+    margin-top: 85px;
+}
+.returnBtns{
+    width:165px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-top: 85px;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background: #F7F8FA;
+}
+h2{
+    color: #242529;
+    font-size: 20px;
+}
+a.on{
+    color: #f5871f!important;
+}
+.demo .img-demo1{
+    width:400px;
+    height: 400px;
+    background-image: url("../img/demo1.png");
+}
+.demo .img-demo2{
+    width:900px;
+    height:140px;
+    background-image: url("../img/demo2.png");
+}
+
+.demo a{
+    display: block;
+    color: darkblue;
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.demo .route{
+    width: 100%;
+    float: left;
+}
+.demo .route .routerChildren{
+    width: 100%;
+    float: left;
+}

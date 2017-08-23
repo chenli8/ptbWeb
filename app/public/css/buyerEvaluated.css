@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+.evaluationCon{
+    height: auto;
+    background-color: white;
+}
+.evaluationCon .serverNav{
+    width:100%;
+    height:59px;
+    padding-left:20px;
+    box-sizing: border-box;
+    background:#fff;
+    border-bottom: 1px solid #E8E8E8;
+}
+.evaluationCon .serverNav a{
+    height:59px;
+    line-height: 59px;
+    text-align: center;
+    color: #979797;
+    float: left;
+    margin-right: 45px;
+    padding:0 10px;
+}
+.evaluationCon a .ico-down{
+    margin-top:27px ;
+    margin-left: 5px;
+}
+.evaluationCon .serverNav a.on{
+    border-bottom: 4px solid #FFC72F;
+    color:#252525;
+}
+
+/*评价类型相关样式*/
+.evaluateTypeCon{
+    height: 50px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.evaluateTypeCon li{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #979797;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    background: url("../../public/img/ico-radio.png") no-repeat left;
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+.evaluateTypeCon .checked{
+    color: #252525;
+    background: url("../../public/img/ico-radio-on.png") no-repeat left;
+    background-size: 18px 18px;
+}
+
+/*评价列表相关样式*/
+.evaluateSellerList{
+    height: auto;
+}
+.evaluateSellerList .evaluateSellerItem{
+    height: auto;
+    min-height: 160px;
+    border-bottom: 1px solid #E8E8E8;
+    background-color: white;
+    padding-bottom: 25px;
+}
+.evaluateSellerList .evaluateSellerItem .left{
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.evaluateSellerList .evaluateSellerItem .left .title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #252525;
+}
+.evaluateSellerList .evaluateSellerItem .left .orderNo{
+    font-size: 14px;
+    color: #979797;
+    margin-top: 8px;
+}
+.evaluateSellerList .evaluateSellerItem .left .sellerName{
+    font-size: 14px;
+    color: #979797;
+    margin-top: 5px;
+}
+.evaluateSellerList .evaluateSellerItem .middle{
+    font-weight: 700;
+    width: 200px;
+    font-size: 18px;
+    color: #FF4500;
+    margin-top: 40px;
+    text-align: center;
+}
+.evaluateSellerList .evaluateSellerItem .right{
+    width: 400px;
+    margin-top: 25px;
+    padding-right: 35px;
+}
+.evaluateSellerList .evaluateSellerItem .right .type{
+    text-align: center;
+    margin-right: 10px;
+}
+.evaluateSellerList .evaluateSellerItem .right .type i{
+    height: 34px;
+    width: 34px;
+    background: url("../../public/img/ico-evaluate-type.png");
+    background-size: 34px 34px;
+    margin-bottom: 5px;
+}
+.evaluateSellerList .evaluateSellerItem .right .type span{
+    font-size: 14px;
+    color: #252525;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail{
+    width: 320px;
+    border: 1px solid #E8E8E8;
+    padding: 10px;
+    background-color: #fafbfc;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail .myEvaluateTitle{
+    font-size: 12px;
+    color: #979797;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail .myEvaluateDesc{
+    font-size: 14px;
+    color: #252525;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail .myEvaluateTime{
+    font-size: 12px;
+    color: #979797;
+    margin-top: 5px;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail .line{
+    border-top: 1px solid #E8E8E8;
+    margin-top: 5px;
+}
+.evaluateSellerList .evaluateSellerItem .right .evaluateDetail .sellerReplyTitle a{
+    font-size: 12px;
+    color: #3069E6;
+    margin-top: 5px;
+    background: url(../img/ico-arrow-down.png) no-repeat right;
+    background-size: 8px 5px;
+    padding-right: 10px;
+}
+.evaluateSellerList .evaluateSellerItem .right .sellerReplyDesc{
+    font-size: 14px;
+    color: #252525;
+}
+.evaluateSellerList .evaluateSellerItem .right .sellerReplyTime{
+    font-size: 12px;
+    color: #979797;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+

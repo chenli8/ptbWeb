@@ -1,0 +1,406 @@
+.account {
+    width: 1300px;
+    height: auto;
+    overflow: hidden;
+    background-color: #F7F8F9;
+    margin: 0 auto;
+    min-height: 1250px;
+}
+
+.account .cont {
+    width: 796px;
+    height: 1100px;
+    margin: 30px auto 190px;
+    background-color: #FFFFFF;
+}
+
+.account .cont .top {
+    width: 100%;
+    height: 221px;
+    background-image: url("../img/account-bg.png");
+    background-size: contain;
+
+}
+
+.account .cont .top .title {
+    font-size: 18px;
+    margin: 24px 0 0 26px;
+    float: left;
+    font-weight: bold;
+}
+
+.account .cont .info {
+    margin-left: 24px;
+    margin-top: -96px;
+}
+
+.account .cont .info .userImage {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.account .cont .info .userImage input {
+    position: absolute;
+    top: 96px;
+    left: 0;
+    height: 34px;
+    width: 130px;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.account .cont .info img {
+    width: 130px;
+    height: 130px;
+}
+
+.account .cont .info .edit {
+    display: block;
+    width: 130px;
+    height: 34px;
+    opacity: 0.9;
+    background: rgba(0, 0, 0, 0.50);
+    margin-top: -34px;
+    color: #FFFFFF;
+    line-height: 34px;
+    text-align: center;
+    font-size: 16px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.account .cont .info .userName {
+    margin: 30px 0 0 20px;
+}
+
+.account .cont .info .userName input {
+    border: 1px solid #cccccc;
+    height: 20px;
+    float: left;
+}
+
+.account .cont .info .userName .nikeName {
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+
+}
+
+.account .cont .info .userName .nikeName .i-account-userName-edit, .account .cont .info .userName .nikeName .ico-edit-submit {
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.account .cont .info .userName .userId {
+    margin-top: 10px;
+}
+
+.account .cont .auth {
+    width: 745px;
+    height: auto;
+    margin: 56px 0 0 26px;
+    border-bottom: 1px solid #DADADA;;
+}
+
+.account .cont .auth .title {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 58px;
+}
+
+.account .cont .auth .content {
+    height: auto;
+    margin-left: 140px;
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.account .cont .auth .content li {
+    float: left;
+    width: 450px;
+    height: 52px;
+    line-height: 52px;
+    margin-top: 20px;
+}
+
+.account .cont .auth .content li .line {
+    float: left;
+    width: 370px;
+    padding: 0 10px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.account .cont .auth .content li .line .fl {
+    font-weight: bold;
+}
+
+.account .cont .auth .content li i {
+    margin: 18px 0 0 10px;
+}
+
+.ico-auth-no {
+    width: 66px;
+    height: 20px;
+    background-image: url("../img/ico-auth-no.png");
+    background-size: 66px 20px;
+}
+
+.ico-auth-ok {
+    width: 66px;
+    height: 20px;
+    background-image: url("../img/ico-auth-ok.png");
+    background-size: 66px 20px;
+}
+.ico-auth-md {
+    width: 66px;
+    height: 20px;
+    background-image: url("../img/ico-auth-md.png");
+    background-size: 66px 20px;
+}
+.ico-auth-fail {
+    width: 66px;
+    height: 20px;
+    background-image: url("../img/ico-auth-fail.png");
+    background-size: 66px 20px;
+}
+
+.account .cont .security {
+    margin-top: 40px;
+    padding-left: 84px;
+}
+
+.account .cont .security .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.account .cont .security .content {
+    width: 570px;
+    height: auto;
+    margin-left: 85px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.account .cont .security .content .otherUser {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.account .cont .security .content .otherUser li {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    float: left;
+    background: #F7F8FA;
+    border: 1px solid #DFE1E5;
+    padding: 0 26px;
+    margin-top: 10px;
+    position: relative;
+    font-size: 16px;
+}
+
+.account .cont .security .content .otherUser li .title {
+    font-weight: normal;
+    position: absolute;
+    left: 80px;
+
+}
+
+.account .cont .security .content .otherUser li .bind {
+    color: #3069E6;
+    cursor: pointer;
+}
+
+.account .cont .security .content .otherUser li .bind.no {
+    color: #FF4B4B;
+}
+
+.account .cont .security .content .otherUser li .ico-other-taobao {
+    margin-top: 12px;
+}
+
+.account .cont .security .content .otherUser li .ico-mobile {
+    margin-top: 12px;
+}
+
+.account .cont .security .content .otherUser li .ico-other-qq {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.account .cont .security .content .otherUser li .ico-other-weixin {
+    margin-top: 14px;
+}
+
+.account .cont .security .content .otherUser li .ico-other-weibo {
+    margin-top: 13px;
+}
+
+.account .cont .security .content .otherUser li .username {
+    position: absolute;
+    left: 250px;
+}
+
+.account .cont .security .content .otherUser.password {
+    margin-top: 40px;
+}
+
+.account .cont .security .content .otherUser.password li {
+    background-color: #FFFFFF;
+}
+
+.account .cont .security .content .otherUser.password li .ico-loginReg-password {
+    width: 22px;
+    height: 22px;
+    margin-top: 14px;
+}
+
+.account .cont .security .content .otherUser.password li .ico-payPassword {
+    background-image: url("../img/ico-payPassword.png");
+    width: 22px;
+    height: 22px;
+    margin-top: 14px;
+}
+
+.accountEdit {
+    width: 100%;
+    height: auto;
+    min-height: 900px;
+    overflow: hidden;
+}
+
+.accountEdit .cont {
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    background: #F7F8FA;
+    overflow: hidden;
+}
+
+.accountEdit .cont .content {
+    width: 796px;
+    height: auto;
+    min-height: 724px;
+    margin: 60px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+
+.accountEdit .cont .content .step {
+    width: 100%;
+    height: 220px;
+    border-bottom: 1px solid #EDEDED;
+
+}
+
+.accountEdit .cont .content .step > .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accountEdit .cont .content .step .timeStepContainer {
+    top: 35px;
+}
+
+.accountEdit .cont .content .editCont {
+    width: 100%;
+    height: 500px;
+    padding: 70px 0 0 225px;
+
+}
+
+.accountEdit .cont .content .editCont .line {
+    margin-bottom: 40px;
+    float: left;
+}
+
+.accountEdit .cont .content .editCont .title {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.accountEdit .cont .content .editCont .input {
+    width: auto;
+    height: auto;
+    margin-top: 12px;
+}
+
+.accountEdit .cont .content .editCont .input input {
+    border: 1px solid #E8E8E8;
+    width: 348px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    float: left;
+    padding-left: 15px;
+}
+
+.accountEdit .cont .content .editCont .tips {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #FF4B4B;
+}
+
+.accountEdit .cont .content .editCont .accountEditSubmit {
+    display: inline-block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    background-image: linear-gradient(90deg, #FFE55C 0%, #FFC72F 100%);
+    border-radius: 6px;
+    margin: 20px 0 0 20px;
+}
+
+.accountEdit .cont .content .editCont .getCode {
+    display: inline-block;
+    width: 136px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #4895FF;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.accountEdit .success {
+    width: 100%;
+    text-align: center;
+}
+
+.accountEdit .success .ico-auth-success {
+    margin: 46px auto;
+}
+
+.accountEdit .success .title {
+    font-size: 24px;
+}
+
+.accountEdit .success .sub {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.accountEdit .success .submit {
+    display: inline-block;
+    margin-top: 60px;
+    font-size: 16px;
+    background-image: linear-gradient(90deg, #FFE55C 0%, #FFC72F 100%);
+    border-radius: 6px;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+

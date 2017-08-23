@@ -1,0 +1,131 @@
+.demandContainer {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 90px;
+}
+.noListTap{
+    font-size:16px;
+    text-align: center;
+    margin-top:173px;
+}
+.mainCon {
+    width: 1200px;
+    min-height: 961px;
+    background: #fff;
+}
+
+.mainCon .Item {
+    width: 100%;
+    height: 114px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: solid 1px #DADADA;
+}
+
+.mainCon .Item .itemLeft {
+    width: 500px;
+    height: auto;
+}
+
+.mainCon .Item .itemLeft .headline {
+    font-size: 18px;
+    font-weight: bolder;
+    width: 400px;
+    overflow: hidden;
+    height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mainCon .Item .itemLeft .subline {
+    font-size: 14px;
+    color: #979797;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mainCon .Item .itemLeft .specificInfo {
+    font-size: 12px;
+    color: #979797;
+}
+
+.mainCon .Item .itemLeft .specificInfo .users {
+    margin-left: 30px;
+}
+
+.mainCon .Item .itemLeft .specificInfo .users .publicUser {
+    font-size: 12px;
+    color: #131313;
+}
+.mainCon .Item .itemRight{
+    position: relative;
+    width: 550px;
+}
+.mainCon .Item .itemRight ul li {
+    float: left;
+    font-size: 16px;
+    position: absolute;
+    top:0;
+    z-index: 0;
+}
+
+.mainCon .Item .itemRight i {
+    display: inline-block;
+}
+
+.mainCon .Item .itemRight ul li:first-child {
+    width:110px;
+    text-align: right;
+    color: #FF4500;
+    left: 0;
+}
+.mainCon .Item .itemRight ul li:nth-child(2){
+    width:110px;
+    text-align: right;
+    right: 200px;
+}
+.mainCon .Item .itemRight ul li:nth-child(3){
+    right: 0;
+}
+.mainCon .Item .itemRight ul li:first-child b {
+    margin-left: 2px;
+    font-size: 12px!important;
+}
+
+
+.mainCon .Item .itemRight ul li .over {
+    font-size: 14px !important;
+    color: #979797;
+    display: block;
+    margin-top: 8px;
+    width:110px;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mainCon .demandnav{
+    height:51px;
+   /*// border-bottom: solid 1px #E8E8E8;*/
+    box-sizing: border-box;
+}
+.mainCon .demandnav .otherSearch{
+    width:400px;
+    height:50px;
+    float: right;
+    line-height: 50px;
+}
+.mainCon .demandnav .otherSearch a{
+    float: right;
+    font-size: 16px;
+    margin-right: 45px;
+}
+.mainCon .demandnav .otherSearch a>i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:5px;
+}

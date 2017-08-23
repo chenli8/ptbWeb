@@ -1,0 +1,158 @@
+/*卖家中心*/
+.userCon{
+    width: 897px;
+  //height: 162px !important;
+    background: #fff;
+    border: 1px solid #E8E8E8;
+}
+.userCon .userCon-top{
+    width:100%;
+    height:162px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E8E8E8;
+    overflow: hidden;
+}
+.userCon .userCon-top .info{
+    width:390px;
+    height:162px;
+    padding:26px;
+    box-sizing: border-box;
+    margin-right: 150px;
+}
+.userCon .userCon-top .info .userImg{
+    margin-right: 18px;
+}
+.userImg >i{
+    width:110px;
+    height:110px;
+    display: block;
+    background: url("../../public/img/ico-default-user.png");
+    background-size:110px 110px!important;
+}
+.userCon .userCon-top .info .UserName .title{
+    font-size: 18px;
+    margin-top: 8px;
+    width: 209px;
+    height: 49px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.userCon .userCon-top .info .UserName .Orders{
+    margin-top:8px;
+}
+.userCon .userCon-top .info .UserName .Orders ul li{
+    float: left;
+    color:#969696;
+    margin-right: 50px;
+}
+.userCon .userCon-top .info .UserName .Orders ul li b{
+    display: block;
+    margin-top: 4px;
+    color:#252525;
+    font-size: 16px;
+}
+.userCon .userCon-top .info .UserName .Orders ul li b>i{
+    display: inline-block;
+    margin-right:3px;
+}
+.userCon .userCon-top .info .UserName .Orders ul li:last-child{
+    margin-right: 0;
+}
+.userCon .userCon-top .account{
+    width:auto;
+    height: auto;
+    margin-top: 44px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.userCon .userCon-top .account .ico-setting{
+    width:21px;
+    height:21px;
+    float: left;
+    margin-right: 14px;
+    margin-top: 1px;
+}
+.userCon .userCon-top .accInfo{
+    width:232px;
+    height:162px;
+    background: #FFC72F;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.userCon .userCon-top .accInfo b{
+    display: block;
+    margin-top: 4px;
+    font-size: 20px
+}
+.userCon .userCon-top .accInfo b i{
+    display: inline-block;
+    margin-right: 2px;
+}
+.userCon .userCon-top .accInfo .withdrawCon{
+    height: 16px;
+    line-height: 16px;
+    margin-top: 25px;
+}
+.userCon .userCon-top .accInfo .withdrawCon .accHistory{
+    font-size: 14px;
+    background: url("../../public/img/ico-user-withdraw.png") no-repeat left;
+    padding-left: 25px;
+    background-size: 16px 16px;
+    margin-left: 75px;
+}
+.userCon .userCon-top .userSet{
+    width:auto;
+    float: right;
+}
+.userCon .userCon-btm{
+    width:100%;
+    height: 115px;
+    padding:25px 10px 10px 10px;
+    box-sizing: border-box;
+}
+.userCon .userCon-btm ul li{
+    width:216px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.userCon .userCon-btm ul li i{
+    margin:auto;
+}
+.userCon .userCon-btm ul li i.ico-waitsure{
+    width:30px;
+    height:32px;
+    margin-bottom: 20px;
+}
+.userCon .userCon-btm ul li .ico-waitmoney{
+    width:34px;
+    height:34px;
+    margin-bottom:18px;
+}
+.userCon .userCon-btm ul li .ico-waitgods{
+    width:30px;
+    height:30px;
+    margin-bottom: 20px;
+}
+.userCon .userCon-btm ul li .ico-waitcommon{
+    width:30px;
+    height:30px;
+    margin-bottom: 20px;
+}
+.userCon .userCon-btm ul li a{
+    color:#252525;
+}
+.userCon .userCon-btm ul li .rgtip{
+    float: right;
+    width:1px;
+    height:29px;
+    background:#D8D8D8 ;
+    margin-top: -35px;
+}

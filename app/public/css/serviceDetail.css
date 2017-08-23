@@ -1,0 +1,322 @@
+.serviceDetail {
+    width: 1200px;
+    margin: auto;
+    min-height: 600px;
+}
+
+.salerInfo {
+    background: #FFFFFF;
+    border: solid 1px #E8E8E8;
+    height: 135px;
+}
+
+.salerInfo .userImg {
+    width: 89px;
+    height: 89px;
+    border-radius: 3px;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+
+.salerInfo .baseInfo {
+    width:280px;
+    height:75px;
+    margin-top: 28px;
+    margin-left: 13px;
+}
+.salerInfo .baseInfo>p{
+    width:280px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.salerInfo .numInfo {
+    margin-top: 46px;
+    margin-left: 83px;
+    text-align: center;
+}
+.salerInfo .numInfo1{
+    margin-left: 55px;
+}
+.salerInfo .title, .salerInfo.titleNum {
+    font-size: 18px;
+    color: #252525;
+}
+
+.salerInfo .titleNum {
+    font-size: 20px;
+}
+.salerInfo .servers{
+    color:#979797;
+    margin-top:6px;
+    margin-bottom:10px;
+}
+.salerInfo .content {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #979797;
+}
+.salerInfo .btn {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #D3D3D3;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 53px;
+    margin-right: 24px; ;
+    color: #242529;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.serviceDetail .tab_container{
+    height:50px;
+    background: #f7f8fa;
+    border-bottom:2px solid #FFC72F;
+    margin: 30px auto 0;
+}
+.tab_containers{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+    font-size: 16px;
+    background: #fff;
+    margin-top:30px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    border-bottom:1px solid #E8E8E8!important;
+    cursor: pointer;
+    color: #979797;
+}
+.tab_containers>span{
+    float: left;
+    box-sizing: border-box;
+    height:60px;
+    padding:0 24px;
+    margin-right: 40px;
+}
+.tab_containers .on{
+    color: #252525;
+    border-bottom:4px solid #FFC72F;
+}
+.serviceDetail .tab_container .tab,.serviceDetail .tab_container .tab_s{
+    width: 173px;
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #979797;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-bottom: none;
+    float: left;
+    cursor: pointer;
+}
+.serviceDetail .tab_container .tab_s{
+    color: #252525;
+    background-color: #ffc72f;
+    border:1px solid #ffc72f;
+}
+.serviceInfo{
+    margin-bottom: 85px;
+}
+.serviceInfo .baseInfo{
+    height: 308px;
+    background: #FFFFFF;
+    /*margin-right: 100px;*/
+}
+.serviceInfo .baseInfo .pic{
+    height: 260px;
+    width: 260px;
+    margin: 24px;
+    float: left;
+    overflow: hidden;
+}
+.serviceInfo .baseInfo .serviceImg{
+    width: 260px;
+}
+.serviceInfo .baseInfo  .servers{
+    color: #979797;
+    font-size: 14px;
+}
+.serviceInfo .baseInfo .title{
+    font-size: 20px;
+    color: #252525;
+    margin-top: 36px;
+}.serviceInfo .baseInfo .priceLl{
+     height: 78px;
+    margin-top: 20px;
+    width: 875px;
+    background: #f7f8fa;
+}.serviceInfo .baseInfo .priceTitle{
+     font-size: 16px;
+     color: #979797;
+     letter-spacing: 0;
+     line-height: 16px;
+    margin-left: 26px;
+    margin-top: 46px;
+ }
+.serviceInfo .baseInfo .price{
+    font-size: 26px;
+    color: #FF4500;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-left: 12px;
+    margin-top: 41px;
+}
+.serviceInfo .baseInfo .buy{
+    font-size: 20px;
+    height: 50px;
+    width: 190px;
+    margin-top: 66px;
+    line-height: 48px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 8px 14px 0 rgba(255,199,47,0.28);
+}
+.serviceInfo .baseInfo .addLink{
+    margin-top: 70px;
+    font-size: 16px;
+    margin-right: 38px;
+}
+.serviceInfo .baseInfo .addLink i{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    float: left;
+    margin: -6px 16px 0 0;
+}
+.serviceInfo .detail{
+    height: auto;
+    background: #FFFFFF;
+}
+/*资质认证*/
+.certification{
+  width:100%;
+  height:733px;
+  background:#fff;
+  margin-bottom: 338px;
+  padding:77px 0 0 64px;
+}
+.certification .cerCon{
+    width:448px;
+    height:35px;
+}
+.certification .cerCon .contents{
+    width:370px;
+    height:25px;
+    margin-bottom: 50px;
+    padding:0 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 8px;
+    border-bottom:solid 1px  #DADADA;
+}
+.certification .cerCon>i{
+    width:66px;
+    height:20px;
+    float: right;
+    margin-top: -2px;
+}
+/*服务详情*/
+.serviceDetails{
+    padding:42px 36px;
+    box-sizing: border-box;
+    font-size: 16px;
+    min-height:650px;
+    height: auto;
+}
+.serviceDetails>div:first-child{
+    margin-bottom: 30px;
+}
+.serviceDetails .servoceDsc{
+    margin-top: 12px;
+}
+.serviceDetails .serviceImg{
+    width:565px;
+    height:371px;
+    border: 1px solid #979797;
+    margin-top: 12px;
+    background-size: 565px 371px;
+}
+/*累计评价*/
+.serviceComment{
+    width:100%;
+    height:auto;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.serviceComment .comSubNav{
+    width:100%;
+    height:55px;
+    border-bottom:solid 1px  #E8E8E8;
+    padding-left: 39px;
+    line-height: 55px;
+    box-sizing: border-box;
+}
+.serviceComment .comSubNav>a{
+    font-size: 18px;
+    margin-right: 45px;
+}
+.serviceComment .comSubNav>a>i{
+    width:18px;
+    height:18px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.serviceComment .comContent{
+    width:100%;
+    height:auto;
+    padding:36px 0 0 32px;
+    box-sizing: border-box;
+}
+.serviceComment .comContent .comItems{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.serviceComment .comContent .comItems .uerImgs{
+    margin-right: 58px;
+}
+.serviceComment .comContent .comItems .uerImgs dl dt{
+    width:100px;
+    height:100px;
+    border-radius: 6px;
+    background-size: 100px 100px!important;
+}
+.serviceComment .comContent .comItems .uerImgs dl dd{
+    display: block;
+    margin-top:22px;
+    font-size: 16px;
+    text-align: center;
+}
+.serviceComment .comContent .comItems .uerComment{
+    width:911px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.serviceComment .comContent .comItems .uerComment .uerComDetail{
+   margin-bottom: 22px;
+}
+.serviceComment .comContent .comItems .uerComment .uerComDetail:after{
+
+}
+.serviceComment .comContent .comItems .uerComment .sellerBack .fontBold{
+    font-weight: bold;
+    font-size: 14px;
+    color:#252525;
+}
+.serviceComment .comContent .comItems .uerComment .sellerBack{
+    background:#FFF8CC;
+    padding:14px;
+    border: 1px solid #D4CB92;
+    color: #3D3D3D;
+}
+.times{
+    color: #979797;
+}

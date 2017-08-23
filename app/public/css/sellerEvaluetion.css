@@ -1,0 +1,142 @@
+.right{
+    width:897px;
+    height:875px;
+    background: #fff;
+    margin-top: 15px;
+}
+.main .rightContent{
+    min-height:875px;
+    height: auto;
+}
+.rightContent .assessCon .serverNav{
+   color:red;
+}
+.assessCon .serverNav{
+    width:100%;
+    height:59px;
+    padding-left:20px;
+    box-sizing: border-box;
+    background:#fff;
+    border-bottom: 1px solid #E8E8E8;
+}
+.serverNav a{
+    height:59px;
+    line-height: 59px;
+    text-align: center;
+    color: #979797;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 45px;
+    padding:0 10px;
+}
+.serverNav a .ico-down{
+    margin-top:27px ;
+    margin-left: 5px;
+}
+.serverNav a.on{
+    border-bottom: 4px solid #FFC72F;
+    color:#252525;
+}
+.assessCon .aseSubNav{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    padding-left: 32px;
+    box-sizing: border-box;
+    border-bottom: solid 1px  #E8E8E8;
+}
+.assessCon .aseSubNav ul li{
+    float: left;
+    margin-right: 68px;
+    color: #979797;
+}
+.assessCon  .ico-checked{
+    width:18px;
+    height:18px;
+    border:solid 1px #ccc;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+.assessCon .aseSubNav ul li.on{
+    color:#252525;
+}
+.assessCon .aseItem{
+    width:100%;
+    height:auto;
+}
+.assessCon .aseItem .items:first-child{
+
+}
+.assessCon .aseItem .items{
+    width:100%;
+    height:160px;
+    border-:solid 1px #E8E8E8;
+    padding:25px;
+    box-sizing: border-box;
+}
+.assessCon .aseItem .items .aseInfo{
+    color: #979797;
+    margin-right: 100px;
+}
+.assessCon .aseItem .items .aseInfo>div{
+    margin-: 8px;
+}
+.assessCon .aseItem .items .aseInfo b{
+    font-size: 20px;
+    color: #000000;
+}
+.assessCon .aseItem .items .asePrice{
+    font-size: 18px;
+    color: #FF4500;
+    margin-: 12px;
+    margin-right: 85px;
+}
+.assessCon .aseItem .items .aseDesc>div:first-child{
+    text-align: center;
+}
+.assessCon .aseItem .items .aseDesc .ico-sadFace{
+    width:34px;
+    height:34px;
+    display: block;
+    margin-bottom: 10px;
+    border:solid 1px #E8E8E8;
+}
+.assessCon .aseItem .items .aseDesc .aseCons{
+    margin-left:10px;
+    width:328px;
+    height:107px;
+    border:solid 1px #ccc;
+    padding:10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #979797;
+}
+.assessCon .aseItem .items .aseDesc .aseCons b{
+    font-size: 14px;
+    color: #252525;
+    margin-: 4px;
+    margin-bottom: 8px;
+    display: block;
+}
+.assessCon .aseItem .items .aseDesc .aseCons .userAwser{
+    width:306px;
+    border-top:solid 1px #E8E8E8;
+    margin-top: 8px;
+    line-height: 28px;
+    color:#3069E6;
+}
+.assessCon .aseItem .items .aseDesc .aseCons .userAwser .ico-down{
+    display: inline-block;
+}
+.assessCon>a{
+    display: inline-block;
+    padding:16px;
+}
+.assessCon>a:first-child{
+    margin-left:32px ;
+}
+.assessCon>a>.ico-checked{
+    margin-top:0;
+}

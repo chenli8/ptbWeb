@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*相关店铺样式*/
+.shopSupplier{
+    min-height: 300px;
+    width: 1200px;
+    min-height: 378px;
+}
+
+.collectShopList{
+    height: auto;
+}
+.collectShopList li{
+}
+
+
+.shopItem{
+    width: 100%;
+    height: 136px;
+    padding: 23px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: white;
+}
+.shopItem .shopImg{
+    width: 90px;
+    height: 90px;
+    float: left;
+    border-radius: 3px;
+}
+.shopItem .shopImg img{
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+}
+.shopItem .shopInfoContainer{
+    width: 600px;
+    margin-left: 12px;
+    margin-top: 5px;
+    float: left;
+    vertical-align: middle;
+}
+.shopItem .shopInfoContainer .shopName{
+    font-size: 18px;
+    font-weight: 700;
+    color: #252525;
+}
+.shopItem .shopInfoContainer .serviceRange{
+    margin-top: 8px;
+    font-size: 14px;
+    height:20px;
+    width:450px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #979797;
+}
+.shopItem .shopInfoContainer .addressContainer{
+    margin-top: 8px;
+    font-size: 14px;
+    color: #979797;
+}
+.shopItem .shopInfoContainer .addressContainer .location{
+    margin-left: 30px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.shopItem .shopInfoContainer .addressContainer .location .ico-address{
+    display: inline-block!important;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.shopItem .dealNumContainer{
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-top: 18px;
+}
+.shopItem .dealNumContainer .dealNum{
+    font-size: 20px;
+    font-weight: 700;
+    color: #252525;
+}
+.shopItem .dealNumContainer .dealNumTitle{
+    font-size: 14px;
+    color: #979797;
+    margin-top: 5px;
+}
+.shopItem .favorableRateContainer{
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin-top: 18px;
+}
+.shopItem .favorableRateContainer .favorableRate{
+    font-size: 20px;
+    font-weight: 700;
+    color: #252525;
+}
+.shopItem .favorableRateContainer .favorableRateTitle{
+    font-size: 14px;
+    color: #979797;
+    margin-top: 5px;
+}
+.shopItem .buttonsContainer{
+    float: right;
+    margin-top: 30px;
+}
+.shopItem .buttonsContainer .contactSellerBtn{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+.shopItem .buttonsContainer .enterShopBtn{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    background-color: #ffc72f;
+    margin-left: 15px;
+}
+

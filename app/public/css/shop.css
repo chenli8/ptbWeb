@@ -1,0 +1,132 @@
+/*服务大厅样式*/
+.outContainer{
+    width: 100%;
+    background-color: #f7f8fa;
+}
+.outContainer .contentContainer{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    padding-bottom: 100px;
+}
+.searchCategory{
+    width: 1200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.searchCategory .searchContainer{
+    display: flex;
+    align-items: center;
+}
+.searchCategory .searchBg{
+    border: solid 2px #ffe55c;
+    border-radius: 6px;
+    border-right: none;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.searchCategory .searchType{
+    width: 125px;
+    height: 46px;
+    border-radius: 6px 0 0 6px;
+    background-color: #f7f8fa;
+    line-height: 46px;
+    padding-left: 22px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.searchCategory .searchType.on{
+    background-color: #ffffff;
+    border: 0 solid #DADADA;
+    box-shadow: 0 6px 14px 0 rgba(0,0,0,0.16);
+}
+.searchCategory .searchType .title{
+    font-size: 16px;
+    color: #252525;
+    font-weight: bolder;
+}
+.searchCategory .searchType .pull{
+    font-size: 16px;
+    background: #f7f8fa;
+    position: absolute;
+    top:43px;
+    left:0;
+    width: 125px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.06);
+    font-weight: bold;
+    z-index: 9;
+}
+.searchCategory .searchType .pull.on{
+    background: #ffffff;
+    border: 0 solid #DADADA;
+    box-shadow: 0 7px 14px 0 rgba(0,0,0,0.16);
+}
+.searchCategory .searchType .pull li{
+    padding-left: 22px;
+    padding-right: 35px;
+}
+.searchCategory .searchType .pull li:hover{
+    background: #f7f8fa;
+    cursor: pointer;
+}
+.searchCategory .searchType .title .ico-arrow-down,.searchCategory .searchType .title .ico-arrow-up{
+    float:right;
+    margin:20px 22px 0 9px;
+}
+.searchCategory .searchType .img{
+    font-size: 16px;
+    width: 8px;
+    height:8px;
+}
+.searchCategory .input{
+    font-size: 16px;
+    height: 46px;
+    flex: 1;
+    border: none;
+    padding-left: 20px;
+}
+.searchCategory .searchBtn{
+    font-size: 20px;
+    height: 50px;
+    width: 90px;
+    line-height: 48px;
+    text-align: center;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px
+}
+.searchCategory .demand{
+    font-size: 20px;
+    height: 50px;
+    width: 190px;
+    line-height: 48px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 8px 14px 0 rgba(255,199,47,0.28);
+}
+.searchCategory .categoryContainer{
+    margin-top: 30px;
+    border: solid 1px #dadada;
+}
+ .categoryContainer .line{
+     height: 1px;
+     background-color:#e8e8e8 ;
+}
+.categoryContainer .item{
+    display: flex;
+}
+ .categoryContainer .title{
+    font-size: 14px;
+     margin-left: 20px;
+    font-weight: bold;
+    color: #252525;
+}
+ .categoryContainer  .content{
+    font-size: 14px;
+     margin-left: 20px;
+    color: #979797;
+}

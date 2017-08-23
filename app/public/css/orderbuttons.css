@@ -1,0 +1,501 @@
+/*OrderButtons*/
+.orderDetailButtons {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 24px 24px 24px 24px;
+    border-top: none;
+}
+
+.orderDetailButtons .button_yellow, .orderDetailButtons .button {
+    font-size: 16px;
+    height: 50px;
+    width: 155px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+    background: #FFC72F;
+}
+
+.orderDetailButtons .button {
+    background: #FFFFFF;
+    border: solid 1px #E8E8E8;
+}
+
+.orderDetailButtons .tips {
+    font-size: 14px;
+    color: #FF1D1D;
+    margin-left: auto;
+    margin-top: 12px;
+    text-align: right;
+}
+
+.orderListButtons {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 6px;
+    border-top: none;
+}
+
+.orderListButtons .button_yellow, .orderListButtons .button {
+    font-size: 16px;
+    height: 28px;
+    width: 114px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+    background: #FFC72F;
+}
+
+.orderListButtons .button {
+    background: #FFFFFF;
+    border: solid 1px #E8E8E8;
+}
+
+.orderListButtons .tips {
+    font-size: 14px;
+    color: #FF1D1D;
+    margin-left: auto;
+    margin-top: 12px;
+    text-align: right;
+}
+.layerModal{
+    z-index:9999!important;
+}
+.layerOrder {
+    position: absolute;
+    width: 594px;
+    min-height: 383px;
+    background: #FFFFFF;
+    top: 50%;
+    margin-left: -297px;
+    margin-top: -300px;
+    left: 50%;
+    z-index:9999!important;
+}
+.layerOrder .center .weixinCode{
+    width: 200px;
+    height: 200px;
+}
+.layerOrder .center .prepayments{
+    margin-left:77px ;
+    font-size: 22px;
+}
+
+.layerOrder .center .payOrderss{
+/*    width:100%;*/
+    text-align: center;
+    margin-left: -94px;
+    font-size: 22px;
+}
+.layerOrder .center .payOrderss dt{
+    width:160px;
+    height:106px;
+    margin-bottom: 18px;
+    margin-left: 215px;
+    background: url(../img/closeIcon.png);
+    background-size: 160px 106px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*弹窗*/
+.layerOrder{
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+/*layerTOP*/
+.layerOrder .layerTop{
+    border: 1px solid #E8E8E8;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 26px;
+    color: #252525;
+    letter-spacing: 0;
+    line-height: 54px;
+}
+.layerOrder .layerTop>.closeBtn {
+    width: 54px !important;
+    height: 54px !important;
+    border-radius: 0 !important;
+    background: url("../img/ico-layerCloseBtn.png");
+    background-size: 54px 53px;
+}
+/*催付款*/
+.reminderPrice{
+    margin:75px 0 99px 25px;
+    font-size: 18px;
+    text-align: center;
+}
+/*反馈价格*/
+.backPrice{
+  margin:66px 0 70px 90px;
+  min-height: 100px;
+}
+.backPrice>.item{
+    min-width:158px;
+    height: 58px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+.backPrice>.item>li{
+    width:auto;
+}
+.backPrice>.item>li>i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.backPrice .inputReason{
+    border: 1px solid #E8E8E8;
+    width: 438px;
+    height: 58px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.backPrice .myOrders{
+   /* margin: 20px 0 0 40px;*/
+}
+.backPrice .myOrders .originPrice{
+     width:100%;
+    font-size: 16px;
+    margin:40px 0 0 46px;
+}
+.backPrice .myOrders .originPrice i{
+    display: inline-block;
+}
+.backPrice .myOrders .originPrice .solids{
+    margin:0 8px;
+}
+/*拒单*/
+.notEnsure{
+    overflow: hidden;
+    margin:50px 0 70px 106px;
+    height:116px;
+}
+.notEnsure>.item{
+    min-width:158px;
+    height: 58px;
+    margin-right: 25px;
+    font-size: 16px;
+}
+.notEnsure>.item>li{
+    width:auto;
+}
+.notEnsure>.item>li>i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.layerOrder #inputReason{
+    border: 1px solid #E8E8E8;
+    width: 438px;
+    height: 58px;
+    position: relative;
+    left:100px;
+    top:-55px;
+    font-size: 18px;
+    color: #252525;
+    padding: 12px;
+}
+/*线下支付*/
+.payLineDown{
+    width:auto;
+    height:200px;
+    font-size: 22px;
+    margin:60px 0 136px 40px;
+}
+.payLineDown>div:first-child{
+    margin-bottom:30px; ;
+}
+.payLineDown .addInfotap{
+    font-size: 14px;
+    margin-top: 8px;
+}
+.payLineDown  .paysinfo{
+    margin-left: 100px;
+}
+.payLineDown  .payaddsinfo{
+    margin-top: 50px;
+}
+/*支付类型*/
+.layerOrderPay{
+    width:380px;
+    height:130px;
+    margin:70px 0 0 109px;
+    line-height: 130px;
+    color: #979797;
+    font-size: 18px;
+    text-align: center;
+}
+.layerOrderPay>a{
+    width:130px!important;
+    height:130px!important;
+    border: 2px solid #FFC72F!important;
+    border-radius: 100%!important;
+    text-align: center!important;
+    line-height: 130px!important;
+}
+/*选择付款方式*/
+.onlinePayTypes {
+    width: 173px;
+    height: 80px;
+    background: #F7F8FA;
+    border: 1px solid #FFC72F;
+    position: relative;
+    margin:70px 0 79px 20px;
+}
+.onlinePayTypes>li{
+    padding:0!important;
+}
+.onlinePayTypes:first-child{
+    margin-left: -81px;
+    z-index: 2px;
+}
+.onlinePayTypes .ico_check{
+    position: absolute;
+    right:6px;
+    top:6px;
+}
+.ico_payAli {
+    width: 173px;
+    height: 80px;
+    background-size: 100px 40px;
+    background-image: url("../img/ico-payAli.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ico_payWeixin {
+    width: 173px;
+    height: 80px;
+    background-size: 112px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/ico-payWeixin.png");
+}
+
+.ico_payBank {
+    width: 173px;
+    height: 80px;
+    background-size: 110px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/ico-payBank.png");
+}
+
+.ico_check {
+    width: 20px;
+    height: 20px;
+   // padding:0;
+    background-size: 20px 20px;
+    background-image: url("../img/ico-check-no.png");
+}
+
+.ico_check.on {
+    background-image: url("../img/ico-check.png");
+}
+/*执行结果*/
+#inputResult{
+    width:542px;
+    height:138px;
+    margin:49px 0 48px 25px;
+    border:solid 1px #ccc;
+    font-size: 16px;
+    padding:10px;
+    box-sizing: border-box;
+}
+/*变更尾款*/
+.changePrice{
+    margin:62px 0 0 0;
+    width:100%;
+}
+.changePrice .changeInfos{
+    margin-left:158px;
+    font-size: 16px;
+    color: #3D3D3D;
+}
+.changePrice .myLastPrice{
+    font-size: 16px;
+    margin:50px 0 60px 74px;
+}
+.inputReason{
+    border: 1px solid #E8E8E8;
+    width: 438px;
+    height: 58px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/*layerBtm*/
+.layerOrder .layerBtm {
+    height: 54px;
+}
+
+.layerOrder .layerBtm>.btn {
+    height: 40px!important;
+    width: 130px!important;
+    text-align: center!important;
+    line-height: 40px!important;
+    border-radius: 6px!important;
+    float: right!important;
+    margin-right: 26px!important;
+    cursor: pointer!important;
+    font-size: 16px!important;
+}
+.layerOrder .layerBtm>.centerBtn{
+    height: 40px!important;
+    width: 130px!important;
+    text-align: center!important;
+    line-height: 40px!important;
+    border-radius: 6px!important;
+    float: left!important;
+    margin-right: 30px!important;
+    cursor: pointer!important;
+    font-size: 16px!important;
+    margin-top: 14px;
+}
+.layerOrder .layerBtm>.centerBtn:first-child{
+    margin: 14px 0 0 168px;
+}
+.centerTap{
+    margin-top:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.layerOrder .center{
+    margin:66px 0 100px 98px;
+    height:auto;
+   // overflow: hidden;
+}
+.layerOrder .center .item {
+    width: auto;
+    height: 54px;
+    margin-right: 85px;
+    font-size: 16px;
+}
+.boldFont{
+    font-size: 16px;
+}
+.secondMoney{
+    margin-top: 20px
+}
+.layerOrder .center .item li>i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/*评价*/
+.commentPro .top{
+    font-size: 18px;
+    line-height: 54px;
+    padding-left: 26px;
+    box-sizing: border-box;
+}
+.commentPro .contens{
+    font-size: 16px;
+    margin:34px 0 0 26px;
+    height: auto;
+}
+.commentPro .contens .orderSeller{
+    margin: 20px 0 50px 0;
+}
+.commentPro .contens .chooseComment>.item{
+    width:100px;
+}
+.commentPro .contens .chooseComment>.item>li{
+    height:23px;
+    line-height: 32px;
+    padding:0!important;
+}
+.commentPro .contens .chooseComment>.item>li>i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.commentPro .contens .commentStart{
+    height:100px;
+    margin-bottom: 60px;
+}
+.commentPro .contens .commentStart>div:first-child{
+    margin-bottom: 16px;
+      width:100%;
+     height: 37px;
+
+}
+.commentPro .contens .commentStart ul li{
+    float: left;
+    margin-right: 10px;
+    padding:0!important;
+}
+.commentPro .contens .commentStart ul li:first-child{
+    width:96px;
+}
+.commentPro .contens .commentStart ul li i{
+    width:36px;
+    height:36px;
+    float: left;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.commentPro .contens>#inputResult{
+    margin:15px 0  20px -8px;
+}
+.commentPro .contens .chooseThink{
+    margin-top: -40px;
+}
+.commentPro .contens .chooseThink>.item:first-child{
+    margin-right: 16px;
+}
+.commentPro .contens .chooseThink .ico-radio{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.commentPro .contens .orderDescDetail{
+    width:400px;
+    height:34px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/*支付成功*/
+.payRecharge{
+    width: 1300px;
+    min-height: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.payRecharge .cont{
+    width: 100px;
+    margin: 100px auto;
+    text-align: center;
+}
+.payRecharge .cont span{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+
+
+

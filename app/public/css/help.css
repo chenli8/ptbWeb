@@ -1,0 +1,150 @@
+.notice{
+  width:1000px;
+  height:auto;
+  margin:50px auto;
+}
+.notice .raidersLeft{
+  width:190px;
+  height:777px;
+  background: #fff;
+  border-right:solid 4px #FFC72F;
+  box-sizing: border-box;
+}
+.notice .raidersLeft a{
+  width:100%;
+  height:46px;
+  display: block;
+  font-size: 16px;
+  color: #979797;
+  text-align: center;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+.notice .raidersLeft a:first-child{
+  margin-top: 26px;
+}
+.notice .raidersLeft a.on{
+  background: #FFC72F;
+  color:#252525;
+}
+.notice .raidersRight{
+  width:796px;
+  height:auto;
+  background: #fff;
+  border: 1px solid #DADADA;
+}
+.notice .raidersRight .buyer{
+  padding:34px 0;
+  box-sizing: border-box;
+}
+.notice .raidersRight .buyer>div{
+  margin-bottom: 40px;
+}
+.notice .raidersRight .buyer .step1{
+  width:863px;
+  height:557px;
+  background:url(../img/help-notice-buyer-step01.png) ;
+  background-repeat: no-repeat;
+  background-size: 863px 557px;
+}
+.notice .raidersRight .buyer .step2{
+  width:796px;
+  height:421px;
+  background:url(../img/help-notice-buyer-step02.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 421px;
+}
+.notice .raidersRight .buyer .step3{
+  width:796px;
+  height:374px;
+  background:url(../img/help-notice-buyer-step03.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 374px;
+}
+.notice .raidersRight .buyer .step4{
+  width:796px;
+  height:405px;
+  background:url(../img/help-notice-buyer-step04.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 405px;
+}
+.notice .raidersRight .buyer .step5{
+  width:796px;
+  height:424px;
+  background:url(../img/help-notice-buyer-step05.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 424px;
+}
+.notice .raidersRight .buyer .step6{
+  width:796px;
+  height:396px;
+  background:url(../img/help-notice-buyer-step06.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 396px;
+}
+.notice .raidersRight .seller{
+  padding:34px 0;
+  box-sizing: border-box;
+}
+.notice .raidersRight .seller>div{
+  margin-bottom: 40px;
+}
+.notice .raidersRight .seller .step1{
+  width:864px;
+  height:557px;
+  background:url(../img/help-notice-seller-step01.png) ;
+  background-repeat: no-repeat;
+  background-size: 864px 557px;
+}
+.notice .raidersRight .seller .step2{
+  width:796px;
+  height:421px;
+  background:url(../img/help-notice-seller-step02.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 421px;
+}
+.notice .raidersRight .seller .step3{
+  width:796px;
+  height:839px;
+  background:url(../img/help-notice-seller-step03.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 839px;
+}
+.notice .raidersRight .seller .step4{
+  width:796px;
+  height:374px;
+  background:url(../img/help-notice-seller-step04.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 374px;
+}
+.notice .raidersRight .seller .step5{
+  width:796px;
+  height:805px;
+  background:url(../img/help-notice-seller-step05.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 805px;
+}
+.notice .raidersRight .seller .step6{
+  width:796px;
+  height:374px;
+  background:url(../img/help-notice-seller-step06.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 374px;
+}
+.notice .raidersRight .seller .step7{
+  width:796px;
+  height:345px;
+  background:url(../img/help-notice-seller-step07.png) ;
+  background-repeat: no-repeat;
+  background-size: 796px 345px;
+}
+.notice .raidersRight p{
+  text-align: center;
+  font-size: 16px;
+}
+.notice .raidersRight p .sellerColor{
+  color:#5F9DF6;
+}
+.notice .raidersRight p .buyerColor{
+color:#FF8E1F;
+}

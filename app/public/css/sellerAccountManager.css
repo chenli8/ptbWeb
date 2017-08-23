@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*公共样式*/
+.commonTitle{
+    font-size: 14px;
+    opacity: 0.5;
+    color: white;
+}
+.commonSubTitle{
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+}
+.commonInput{
+    width: 406px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color: #252525;
+    border: 1px solid #E8E8E8;
+    margin-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.commonMt-30{
+    margin-top: 30px;
+}
+.commonInputPrompt{
+    font-size: 16px;
+    color: #FF1D1D;
+}
+.commonGray{
+    color: #252525;
+}
+
+.account{
+    width: 897px;
+    height: 876px;
+    margin: auto;
+    border: 1px solid #E8E8E8;
+    background-color: white;
+}
+.account .cont{
+    height: 876px;
+    background-color: white;
+    padding-top: 30px;
+}
+.account .cont .bankInfo{
+    width: 723px;
+    height: 429px;
+    background: url("../../public/img/bg-bank.png") no-repeat center;
+    background-size: 723px 429px;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-left: 160px;
+}
+.account .cont .bankInfo .type .rights{
+    margin-left: 70px;
+}
+.account .cont .bankInfo .type .rights .openBank{
+     width:280px;
+    height:43px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.account .cont .bankInfo .name{
+   /* margin-top: 35px;*/
+    margin-top: 20px;
+}
+.account .cont .bankInfo .bankNum{
+    margin-top: 35px;
+}
+.account .cont .bankInfo .bankNum>div>.commonSubTitle{
+    letter-spacing: 6px;
+}
+.account .cont .desc{
+    text-align: center;
+    margin-top: -50px;
+}
+.account .cont .desc p{
+    display: inline-block;
+}
+
+.bandBankCardStep1Con{
+    height: auto;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.bandBankCardStep1Con .companyBaseInfoTitle{
+    height: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.bandBankCardStep1Con .next{
+    width: 405px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}

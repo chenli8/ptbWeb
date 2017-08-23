@@ -1,0 +1,379 @@
+@charset "UTF-8";
+/*公共样式*/
+
+.orderList {
+    width: 100%;
+    height: auto;
+    min-height: 776px;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    margin-left: 0px;
+}
+
+.orderList .top {
+    height: 85px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.orderList .top .search {
+    height: 38px;
+    margin-top: 25px;
+}
+
+.orderList .top .searchType {
+    font-size: 16px;
+    color: #252525;
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 6px 0 0 6px;
+    background-color: #F7F8FA;
+    padding-left: 22px;
+    border:solid 1px #DADADA;
+    border-right:0;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.orderList .top .searchType .pull{
+    position: absolute;
+    background-color: #F7F8FA;
+    width: 118px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.06);
+    top:37px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    line-height: 34px;
+}
+.orderList .top .searchType .pull li{
+    height:34px;
+    cursor: pointer;
+}
+.orderList .top .searchType .pull li:hover{
+    background-color:#FFC72F ;
+}
+
+.orderList .top .searchType i {
+    float: right;
+    margin: 16px 14px 0 0px;
+}
+
+.orderList .top .searchInput {
+    font-size: 16px;
+    height: 38px;
+    padding-left: 10px;
+    border:solid 1px #DADADA;
+    border-left:0;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.orderList .top a {
+    font-size: 16px;
+    height: 38px;
+    width: 90px;
+    line-height: 38px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.orderList .top .orderType {
+    width: 350px;
+    margin-top: 34px;
+}
+
+.orderList .top .orderType li {
+    float: left;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #979797;
+    cursor: pointer;
+}
+
+.orderList .top .orderType li:nth-child(1) {
+    color: #252525;
+}
+
+.orderList .top .orderType .current {
+    padding: 2px 10px;
+    border-radius: 6px;
+    background-image: linear-gradient(90deg, #FFE55C 0%, #FFC72F 100%);
+    background-size: contain;
+    color: #252525;
+    margin-top: -2px;
+}
+
+.orderList .orderTab {
+    height: 60px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.orderList .orderTab li {
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+}
+
+.orderList .orderTab .current {
+    color: #252525;
+    border-bottom: 4px solid #FFC72F;
+}
+
+.orderList .orderTab li a {
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #979797;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.orderList .orderInfoList {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.orderList .orderInfoList li {
+    padding: 25px 25px 0 25px;
+}
+
+.orderList .orderInfoList li .orderInfo {
+    height: 200px;
+    border: 1px solid #E8E8E8;
+}
+
+.orderList .orderInfoList li .orderInfo .top {
+    height: 36px;
+    background-color: #FAFAFA;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.orderList .orderInfoList li .orderInfo .top .orderNum {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.orderList .orderInfoList li .orderInfo .top .orderNum span {
+    color: #252525;
+}
+
+.orderList .orderInfoList li .orderInfo .top .time {
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #979797;
+}
+
+.orderList .orderInfoList li .orderInfo .middle {
+    height: 118px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .descCon {
+    width: 445px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #E8E8E8;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .descCon .title {
+    font-size: 16px;
+    color: #252525;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .descCon .subTitle {
+    font-size: 14px;
+    color: #252525;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    margin-left: -4px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .descCon .desc {
+    height: 40px;
+    font-size: 14px;
+    color: #979797;
+    display: -webkit-box;
+    text-overflow:ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .priceCon {
+    width: 190px;
+    height: 118px;
+    line-height: 118px;
+    text-align: center;
+    border-right: 1px solid #E8E8E8;
+    overflow: hidden;
+}
+.orderList .orderInfoList li .orderInfo .middle .priceCon b{
+    font-size: 18px;
+    color: #FF4500;
+}
+.orderList .orderInfoList li .orderInfo .middle .priceCon i {
+    display: inline-block;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon {
+    width: 204px;
+    height: 100%;
+    padding-right: 15px;
+    text-align: right;
+    position: relative;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus {
+    /*margin-top: 15px;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*width: 80px;*/
+    /*padding-right: 5px;*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i{
+    margin-top: 15px;
+    width: 162px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus1{
+    background: url("../img/ico-demand-feedback.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus2{
+    background: url("../img/ico-demand-wait-ok.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus3{
+    background: url("../img/ico-demand-waitpay.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus4{
+    background: url("../img/ico-demand-pre-pay.png") no-repeat right;
+    background-size: 144px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus5{
+    background: url("../img/ico-demand-result.png") no-repeat right;
+    background-size:162px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus6{
+    background: url("../img/ico-demand-waitGoods.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus7{
+    background: url("../img/ico-demand-wait-pay-retainage.png") no-repeat right;
+    background-size: 126px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus8{
+    background: url("../img/ico-demand-pay-retainage.png") no-repeat right;
+    background-size:126px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus9{
+    background: url("../img/ico-demand-complete.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus10{
+    background: url("../img/ico-demand-closed.png") no-repeat right;
+    background-size: 108px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus11{
+    background: url("../img/ico-demand-closed.png") no-repeat right;
+    background-size: 108px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus12{
+    background: url("../img/ico-demand-closed.png") no-repeat right;
+    background-size: 108px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus13{
+    background: url("../img/ico-demand-complete.png") no-repeat right;
+    background-size: 92px 34px;
+}
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderStatus i.orderStatus14{
+    background: url("../img/ico-demand-complete.png") no-repeat right;
+    background-size: 92px 34px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderDetailBtn {
+    margin-top: 55px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon .orderDetailBtn a {
+    font-size: 12px;
+    color: #979797;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon .contactBuyer {
+    margin-top: 5px;
+}
+
+.orderList .orderInfoList li .orderInfo .middle .statusCon .contactBuyer a {
+    font-size: 12px;
+    color: #979797;
+}
+
+.orderList .orderInfoList li .orderInfo .bottom {
+    height: 43px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid #E8E8E8;
+}
+
+.orderList .orderInfoList li .orderInfo .bottom .shopName {
+    width: 150px;
+    height: 43px;
+    line-height: 47px;
+    font-size: 12px;
+    color: #979797;
+    overflow: hidden;
+}
+.orderList .orderInfoList li .orderInfo .bottom .shopName>.ico-shop{
+    width: 24px;
+    height: 24px;
+    margin-top:12px;
+    margin-right: 5px;
+    background: url("../../public/img/ico-shop.png");
+    background-size: 24px 24px;
+    float: left;
+}
+.orderList .orderInfoList li .orderInfo .bottom .buttons {
+    height: 43px;
+    line-height: 43px;
+}
+
+.orderList .orderInfoList li .orderInfo .bottom .buttons a {
+    width: 114px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #252525;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.orderList .orderInfoList li .orderInfo .bottom .buttons a:nth-child(1) {
+    border: 1px solid #D3D3D3;
+}
+.orderList .orderInfoList .noListTap{
+    font-size:16px;
+    text-align: center;
+    margin-top:173px;
+}

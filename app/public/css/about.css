@@ -1,0 +1,69 @@
+.about{
+    width:1260px;
+    margin:0 auto;
+    background: #fff;
+}
+.about i{
+    width: 160px;
+    height: 670px;
+    background: url("../../public/img/aboutus.png");
+    background-size: 160px 670px;
+}
+.aboutMain{
+    padding:80px 0 80px 150px;
+}
+.aboutMain h1{
+    font-family: 黑体;
+    font-size: 48px;
+    color: #252525;
+    line-height: 48px;
+    font-weight: bold;
+}
+.aboutMain h2{
+    font-family: 黑体;
+    font-size: 36px;
+    color: #252525;
+    line-height: 36px;
+    font-weight: bold;
+    padding-top:80px;
+    padding-bottom:30px;
+}
+.aboutMain p{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #252525;
+    line-height: 50px;
+}
+.aboutContact > div{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #252525;
+    padding-bottom: 28px;
+    padding-left: 28px;
+}
+.aboutContact > div.thirdInfo{
+    padding-left:0;
+}
+.aboutContact > div.location{
+    background:url(../../public/img/locationabout.png) no-repeat;
+    background-size:13px auto;
+}
+.aboutContact > div.tel{
+    background:url(../../public/img/telabout.png) no-repeat;
+    background-size:16px auto;
+}
+.aboutContact > div.email{
+    background:url(../../public/img/mailabout.png) no-repeat;
+    background-size:15px auto;
+}
+.aboutContact > div .wx{
+    background:url(../../public/img/wechatabout.png) no-repeat;
+    background-size:19px auto;
+    padding-left: 28px;
+    margin-left:30px;
+}
+.aboutContact > div .qq{
+    background:url(../../public/img/qqabout.png) no-repeat;
+    background-size:16px auto;
+    padding-left: 28px;
+}

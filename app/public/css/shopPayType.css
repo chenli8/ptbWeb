@@ -1,0 +1,325 @@
+@charset "UTF-8";
+/*代付*/
+.payType_paid{
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+.payType_paid .ico_radio{
+    margin-top: 5px;
+    cursor: pointer;
+}
+.payType_paid .text{
+    font-size: 14px;
+    margin: 0 30px 0 5px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.payType_paid input{
+    border: 1px solid #D4D4D4;
+    border-radius: 100px;
+    width: 350px;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.payType_paid .right{
+    box-shadow: inset 0 -1px 0 0 #E9E9E9;
+}
+.payType_paid a{
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-left: -59px;
+}
+.payType_paid .ico-loadingPaid{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/loading.gif");
+    position: absolute;
+    right: 554px;
+    top: 3px;
+}
+.payType_paid .paidLayer{
+    width: 350px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 45px;
+    left: 112px;
+    z-index: 1;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 3px 4px 10px #cccccc;
+}
+.payType_paid .paidContUser{
+    width: 100%;
+    height: 40px;
+}
+.payType_paid .textUser{
+    height: 20px;
+    float: left;
+    font-size: 18px;
+    color: #252525;
+    line-height: 20px;
+    margin-left: 10px;
+    width: 230px;
+    font-weight: bold;
+}
+.payType_paid .phone{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #646464;
+}
+.payType_paid .paidContUser .ico-circularSelectOn{
+    float: left;
+    position: absolute;
+    right:10px;
+    top:25px;
+}
+.payType_paid .paidContUser img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    float: left;
+}
+.payType_paid .paidContUser .ico-payerNo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    float: left;
+    background-image: url("../img/ico-payerNo.png");
+}
+
+/*钱包*/
+.payType_wallet{
+    height: 100px;
+    width: 100%;
+    padding: 30px 0 10px 0;
+}
+.payType_wallet .ico_radio{
+    margin-top: 2px;
+    cursor: pointer;
+}
+.payType_wallet > .text{
+    font-size: 14px;
+    margin: 0 30px 0 5px;
+    line-height: 25px;
+    font-weight: bold;
+}
+.payType_wallet .right{
+    width: 839px;
+    box-shadow: inset 0 -1px 0 0 #E9E9E9;
+    margin-top: -10px;
+    height: 80px;
+}
+.payType_wallet .right .text,.payType_wallet .right .tips{
+    display: block;
+    width: 400px;
+    float: none;
+}
+.payType_wallet .right .text{
+    font-size: 12px;
+    font-weight: bold;
+}
+.payType_wallet .right .text i {
+    color: #FF2C5E;
+}
+.payType_wallet .right .text .price {
+    font-weight: normal;
+    font-size: 20px;
+    color: #FF2C5E;
+    font-family: ptbAFont;
+}
+.payType_wallet .right .tips{
+    color: #FF001F;
+}
+/*支付密码*/
+.payType_payPw{
+    position: relative;
+    font-size: 16px;
+}
+.payType_payPw .pwdErrorTips{
+    position: relative;
+    z-index: 1;
+}
+.payType_wallet .hasPayPwd {
+    font-size: 16px;
+    color: #252525;
+    margin-top: -30px;
+}
+.payType_wallet .hasPayPwd a{
+    color: #FF3D00;
+    text-decoration: underline;
+}
+.payType_payPw .t{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+}
+.payType_payPw .passwordInput {
+    width: 216px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    border-radius: 3px;
+    letter-spacing: 28px;
+    text-indent: 12px;
+}
+.textForget{
+    font-weight: normal;
+    font-size: 12px;
+}
+.textForget a{
+    color: #646464;
+}
+.payType_payPw .pwBackgroundSix {
+    top: 36px;
+    right: -35px;
+}
+.payType_payPw .pwBlackSpots {
+    position: absolute;
+    width: 216px;
+    height: 36px;
+    margin-left: 34px;
+    top: 0!important;
+    right:0;
+}
+.payType_payPw .pwBlackSpots li{
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-top: 0!important;
+}
+.payType_payPw .pwBlackSpots li i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    float: left;
+    border-radius: 5px;
+    margin: 12px;
+}
+.payType_payPw .pwdErrorTips .text{
+    width: auto;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.payType_payPw .pwdErrorTips .error{
+    width: auto;
+    color: #FF491C;
+    font-size: 12px;
+    margin-top: 0;
+    position: absolute;
+    left:-162px;
+}
+.payType_wallet .payPw.walletNo{
+    text-align: right;
+    color: #FF491C;
+    font-size: 16px;
+    margin-top: -30px;
+}
+.payType_wallet .payPw.walletNo a{
+    color: #FF491C;
+    text-decoration: underline;
+}
+
+/*密码6个格子*/
+.pwBackgroundSix {
+    position: absolute;
+    width: 216px;
+    height: 36px;
+    margin-left: 34px;
+}
+
+.pwBackgroundSix li {
+    float: left;
+    height: 34px!important;
+    width: 1px;
+    background-color: #ccc;
+    margin-right: 35px;
+    margin-top: 0!important;
+    position: relative;
+    top: -35px;
+}
+/*键盘*/
+.numKey {
+    width: 210px;
+    height: 200px;
+    background: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 10;
+}
+.numKey.rightPos{
+    top: 0;
+    right: -220px;
+}
+.numKey.topPos{
+    top: -207px;
+    right: 0;
+    padding-top: 2px;
+}
+.numKey.bottomPos{
+    top: 40px;
+    right: 0;
+    padding-top: 2px;
+}
+.numKey .triangleBlackLeftSort {
+    margin-right: 5px;
+}
+
+.numKey span {
+    display: block;
+    font-size: 12px;
+    color: #252525;
+    margin-top: 5px!important;
+    margin-left: 10px;
+}
+
+.numKey ul {
+    margin: 0;
+    float: left;
+    width: 100%;
+    height: 170px;
+    padding: 0 0 0 9px;
+}
+
+.numKey li {
+    float: left;
+    width: 60px;
+    height: 36px!important;
+    text-align: center;
+    line-height: 34px;
+    background: #FAFAFA;
+    border: 1px solid #B6B6B6;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #252525;
+    cursor: pointer;
+    margin: 5px 5px 0 0!important;
+
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ico_unmKeyDel {
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 18px;
+    height: 12px;
+    background-image: url("../img/ico-unmKeyDel.png");
+}

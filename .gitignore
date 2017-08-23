@@ -1,0 +1,14 @@
+.idea/
+node_modules/
+build/
+pc/
+backup/
+npm-debug.log
+
+doc/README.md
+doc/SUMMARY.md
+doc/react
+doc/root
+doc/npm-debug.log
+
+file.md

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+.serviceSupplier{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    padding-bottom: 100px;
+}
+.noListTap{
+    width:1200px;
+    font-size:16px;
+    text-align: center;
+    margin-top:173px;
+}
+.serviceSupplier .tab_container{
+    width:1200px;
+    height:50px;
+    background: #f7f8fa;
+    border-bottom:2px solid #FFC72F;
+    margin-top:20.5px;
+}
+.serviceSupplier .tab_container a{
+    width: 173px;
+    height: 48px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #979797;
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-bottom: none;
+    float: left;
+}
+.serviceSupplier .tab_container .tab_s{
+    color: #252525;
+    background-color: #ffc72f;
+    border:1px solid #ffc72f;
+}
+.serviceSupplier .tabContentContainer{
+    width:1200px;
+    height:auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/*相关服务的样式*/
+.shopService{
+    width: 1200px;
+}
+ .shopServices{
+     width:100%;
+     min-height: 370px;
+     float: left;
+}
+.shopServices .loading{
+    width: 100%;
+}
+.shopServices .loading .ico-loading{
+    width: 52px;
+    height: 52px;
+    margin: 200px auto 0;
+}
+.shopServices li{
+    width: 290px;
+    height: auto;
+    border: solid #e8e8e8 1px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+/*.shopServices li .img{
+    width: 288px;
+    height: 208px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size:cover!important;
+}*/
+.shopServices li>a{
+    display: block;
+    width: 288px;
+    height: 288px;
+    overflow: hidden;
+}
+.shopServices li .serviceDetail{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.shopServices li .serviceDetail .title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: #252525;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.shopServices li .serviceDetail .content{
+    font-size: 12px;
+    color: #979797;
+    margin-top: 8px;
+}
+.shopServices li .serviceDetail .center{
+    height: 28px;
+    margin-top: 15px;
+}
+.shopServices li .serviceDetail .center .price{
+    font-size: 16px;
+    color: #ff4500;
+    float: left;
+}
+.shopServices li .serviceDetail .center .btn{
+    width: 84px;
+    height: 26px;
+    line-height: 24px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ffc72f;
+    text-align: center;
+    border: 1px solid #ffc72f;
+    border-radius: 3px;
+    float: right;
+}
+.shopService li .serviceDetail .bottom{
+    height: 40px;
+    margin-top: 15px;
+    border-top: 1px solid #e8e8e8;
+}
+.shopService li .serviceDetail .bottom a{
+    width: 240px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+    color: #979797;
+    background-size: 18px 18px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+.shopService li .serviceDetail .bottom a>.ico-shops{
+    width:20px;
+    height:18px;
+    float: left;
+    margin: 10px 8px 0 0;
+}
+.shopService li .serviceDetail .bottom .ico-blackArrow{
+    width:5px;
+    height:8px;
+    float: right;
+    margin:16px 14px 0 0 ;
+}

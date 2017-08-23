@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.agreementContainer{
+    background-color: #f7f8f9;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.agreementContainer .pageContainer{
+    height:auto;
+    margin-left: 30px;
+    margin-right: 70px;
+    background-color: white;
+    padding-bottom: 40px;
+}
+.commonTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 75px;
+    color: #252525;
+    text-align: center;
+}
+.commonSubTitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #252525;
+    text-align: left;
+}
+.commonContent{
+    margin-top: 10px !important;
+    font-size: 16px;
+    color: #252525;
+}
+.commonBlock{
+    font-weight: 700;
+}
+.commonML{
+    margin-left: 300px;
+}
+.commonML2{
+    margin-left: 340px;
+}
+.commonML3{
+    margin-left: 280px;
+}
+
+.atiCal{
+   // line-height: 30px;
+}
+.pageContainer .agreementTab{
+    width: 290px;
+    height: 100%;
+}
+.pageContainer .agreementTab a{
+    font-size: 16px;
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    width: 100%;
+    padding-left: 25px;
+    background-color: white;
+}
+.pageContainer .agreementTab .navS{
+    background-color: #FFC72F !important;
+}
+.pageContainer .divider{
+    width: 10px;
+    height: 100%;
+    background-color: #f7f8f9;
+}
+.pageContainer .agreementContent{
+    height: 100%;
+    overflow: hidden;
+}
+.agreementTitle{
+    font-size: 24px !important;
+    margin-top: 75px;
+    font-weight: 700;
+    color: #252525;
+    text-align: center;
+}
+.subtitle{
+    margin-top: 20px;
+    float: right;
+    padding-right: 66px;
+}
+.subtitle li{
+    padding-left: 25px;
+    margin-left: 60px;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+#threeAgreement{
+    width:100%;
+    height:auto;
+}
+.subtitle li:nth-child(1) {
+    background: url("../../public/img/ico-print.png") no-repeat left;
+    background-size: 20px 20px;
+}
+.subtitle li:nth-child(2){
+    background: url("../../public/img/ico-download.png") no-repeat left;
+    background-size: 20px 20px;
+}
+.line{
+    height: 1px;
+    background-color: #e8e8e8;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+.agreementDetail{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.agreementDetail p{
+    font-size: 16px;
+    color: #252525;
+    margin-top: 25px;
+}
+
